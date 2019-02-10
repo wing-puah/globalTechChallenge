@@ -2,11 +2,13 @@ import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { ThemeProvider } from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { themeLight, GlobalStyle } from '../theme/globalStyle'
 import Head from './head'
 import Navbar from "./navbar"
 import Footer from './footer'
+
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={themeLight}>
@@ -25,7 +27,7 @@ const Layout = ({ children }) => (
           <Head/>
           <GlobalStyle />
           <Navbar />
-          <section>
+          <section className="body">
             <main>{children}</main>
             <Footer />
           </section>
