@@ -6,10 +6,10 @@ function animation() {
   var halfy = maxy / 2;
   var canvas = document.createElement("canvas");
   var body = document.getElementsByClassName('body')[0];
-  body.insertAdjacentElement("afterbegin", canvas)
   canvas.id = "bg-1"
   canvas.width = maxx;
   canvas.height = maxy;
+  body.insertAdjacentElement("afterbegin", canvas)
   var context = canvas.getContext("2d");
   var dotCount = 200;
   var dots = [];
@@ -20,7 +20,7 @@ function animation() {
 
   // dots animation
   function render() {
-    context.fillStyle = "#2a2a2a";
+    context.fillStyle = "rgba(42, 42, 42, 0.6)";
     context.fillRect(0, 0, maxx, maxy);
     for (var i = 0; i < dotCount; i++) {
       dots[i].draw();

@@ -1,7 +1,12 @@
 import React from 'react'
-import { Box, Panel } from '../boxes'
+import styled from 'styled-components'
+import { Panel, GradientBox } from '../../theme/boxes'
 
 import Overview from './overview'
+import Featured from './featured'
+import Partners from './partners'
+
+import background from '../../images/bg/coding.jpg'
 
 const highlights = [
   {icon: 'zmdi-star', content: '$1000 cash prize per vertical'},
@@ -11,6 +16,23 @@ const highlights = [
   {icon: 'zmdi-accounts', content: '10+ Career booths'}
 ]
 
+const Background = styled.div`
+  background: url(${background}) 50% 20%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(67, 67, 67, 0.3) );
+  }
+`
 
 const HomeComponents = (props) => (
   <div className="container">
@@ -33,7 +55,7 @@ const HomeComponents = (props) => (
         </div>
 
         <div className="col-12 col-sm-5">
-          <Box>
+          <GradientBox>
             <ul>
               {highlights.map((el, idx) => (
                 <li key={idx}>
@@ -42,12 +64,15 @@ const HomeComponents = (props) => (
                 </li>
               ))}
             </ul>
-          </Box>
+          </GradientBox>
         </div>
       </div>
     </Panel>
-
+    <Background />
     <Overview />
+    <Featured />
+
+    <Partners />
   </div>
 )
 

@@ -1,10 +1,12 @@
 import React, { Component } from "react"
 // import { Link } from "gatsby"
 import styled from 'styled-components'
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import HomeComponents from '../components/home/allHomeComponents'
-import SEO from "../components/seo"
+
+import { GradientButton } from '../theme/button'
 import { media } from '../theme/globalStyle'
 import { animation } from '../scripts/animatedBg'
 
@@ -29,8 +31,8 @@ class IndexPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <HeaderBanner className="text-center container__cstm text-white">
+        <SEO title="National Blockchain Challenge" keywords={[`hackathon`, `challenge`, `Singapore`, `blockchain`]} />
+        <HeaderBanner className="text-center container__cstm text-white my-5">
           <h1 className="text-white text-uppercase">National Blockchain Challenge'19</h1>
           <h2 className="text-white">Singapore's first cross-disciplinary blockchain hackathon</h2>
           <div className="row justify-content-center">
@@ -45,6 +47,9 @@ class IndexPage extends Component {
                   <span className="pl-4">Singapore</span>
                 </i>
               </div>
+            </div>
+            <div className="col-12 mt-5">              
+              <GradientButton>Join us today</GradientButton>
             </div>
           </div>
         </HeaderBanner>

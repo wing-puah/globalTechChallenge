@@ -26,7 +26,13 @@ export const themeLight = {
   footer: '#1b1b1b',
   footerFont: '#fff',
   bgMute: '#f9f9f9',
-  borderMute: '#f7f7f7'
+  borderMute: '#f7f7f7',
+  gradientStopOne: '#fc354c',
+  gradientStopTwo: '#0abfbc',
+  gradientLightStopOne: '#abbaab',
+  gradientLightStopTwo: '#fff',
+  gradientDarkStopOne: '#780206',
+  gradientDarkStopTwo: '#061161'
 }
 
 
@@ -47,6 +53,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
+    ${media.tablet`padding-top: 60px;`}
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -121,10 +128,25 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .container__cstm--y {
+    position: relative;
+    margin: auto;
+    padding: 40px 0;
+    @media(min-width: 768px) {
+      padding: 85px 0;
+    }
+    @media(min-width: 1500px) {
+      max-width: 1500px;
+    }
+  }
+
   #bg-1 {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: -100;
+    width: 100%;
+    height: 100vh;
+    z-index: -44;
+    opacity: 0.8;
   }
 `

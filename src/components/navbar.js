@@ -15,7 +15,8 @@ const pages = [
   {url: '/#about', name: 'About'},
   {url: '/#overview', name:'Overview'},
   {url: '/#featured', name:'Judges/Mentors'},
-  {url: '/contact', name:'Contact'}
+  {url: '/#partners', name:'Partners'},
+  {url: '/#contact', name:'Contact'}
 ];
 
 const Navbar = (props) => {
