@@ -66,6 +66,11 @@ function SEO({ description, lang, meta, keywords, title }) {
                 href: "https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
               }
             ]}
+            script={[
+              {
+                src: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+              }
+            ]}
           />
         )
       }}

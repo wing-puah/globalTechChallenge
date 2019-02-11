@@ -2,12 +2,14 @@
   position: relative;
 }
 
-.react-tabs__row:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  border-top: 2px solid #aaa;
+@media only screen and (min-width: 568px) {
+  .react-tabs__row:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border-top: 2px solid #aaa;
+  }
 }
 
 .react-tabs__tab-list {
@@ -20,6 +22,20 @@
   border: 1px solid #aaa;
   padding: 10px 40px;
   background: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .react-tabs__tab {
+    margin-bottom: 20px;
+    width: 100%;
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .react-tabs__tab {
+    padding: 10px 20px;
+  }
 }
 
 .react-tabs__tab:hover {

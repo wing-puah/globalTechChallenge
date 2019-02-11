@@ -7,7 +7,7 @@ const Logo = styled.div`
 `
 const Partner = (props) => (
   <Logo>
-    <img src={props.img} alt={props.name}/>llala
+    <img src={props.img} alt={props.name}/>To be revealed soon
   </Logo>
 )
 

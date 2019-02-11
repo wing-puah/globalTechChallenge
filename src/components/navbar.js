@@ -2,12 +2,26 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
+import { media } from '../theme/globalStyle'
+import mobileLogo from '../images/GTC-brand/gtc_logo_web.jpg'
 import logo from '../images/GTC-brand/gtc-logo-long.png'
 
-const NavLogo = styled.img`
+const NavLogo = styled.div`
   max-width: 400px;
   max-height: 40px;
   margin-bottom: 0;
+  height: 50px;
+  width: 100px;
+  background: url(${mobileLogo}) center/contain no-repeat;
+  ${media.tablet`
+    background: url(${logo}) left center/contain no-repeat;
+    width: 500px;
+  `}
+`
+
+const NavList = styled.div`
+  background: rgba(56, 134, 151, 0.7);
+  ${media.tablet`background: white;`}
 `
 
 const pages = [
@@ -22,12 +36,12 @@ const pages = [
 const Navbar = (props) => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white px-sm-5 py-3 border-bottom fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white px-0 pb-0 px-sm-5 py-sm-3 border-bottom fixed-top">
         <Link to="/" className="navbar-brand">
-          <NavLogo src={logo} alt="Global Technology Challenge" />
+          <NavLogo alt="Global Technology Challenge" className="my-2 my-sm-0"/>
         </Link>
 
-        <button className="navbar-toggler"
+        <button className="navbar-toggler mr-4"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarSupportedContent"
@@ -37,7 +51,7 @@ const Navbar = (props) => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <NavList className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             {pages.map( (el, i) => (
               <Link to={el.url}
@@ -52,7 +66,7 @@ const Navbar = (props) => {
               </Link>
             ))}
           </ul>
-        </div>
+        </NavList>
       </nav>
    </header>
   )

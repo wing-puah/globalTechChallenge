@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `National Blockchain Challenge`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Encouraging academics community to design and develop business solutions using blockchain platform`,
     author: `Global Technology Challenge`,
   },
   plugins: [
@@ -27,6 +27,12 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-134286032-1",
+      },
+    }
   ],
 }

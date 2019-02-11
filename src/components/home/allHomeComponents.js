@@ -11,13 +11,13 @@ import background from '../../images/bg/coding.jpg'
 const highlights = [
   {icon: 'zmdi-star', content: '$1000 cash prize per vertical'},
   {icon: 'zmdi-assignment-check', content: '5+ Master Classes'},
-  {icon: 'zmdi-mic-setting', content: '10+ Speakers'},
-  {icon: 'zmdi-accounts', content: '15+ Mentors/Judges'},
+  {icon: 'zmdi-mic-setting', content: '10+ Trainers & Speakers'},
+  {icon: 'zmdi-accounts', content: '15+ Mentors & Judges'},
   {icon: 'zmdi-accounts', content: '10+ Career booths'}
 ]
 
 const Background = styled.div`
-  background: url(${background}) 50% 20%;
+  background: url(${background}) 50% 20%/cover;
   background-attachment: fixed;
   width: 100%;
   height: 30vh;
@@ -39,7 +39,7 @@ const HomeComponents = (props) => (
     <Panel className="bg-white" id="about">
       <div className="row align-items-center">
 
-        <div className="col-12 col-sm-7 row">
+        <div className="col-12 col-md-7 row">
           <div className="col-12">
             <h2>About</h2>
             <p>Connecting the various institution, developers and students community to create meaningful conversations around blockchain development and real world use case</p>
@@ -54,7 +54,7 @@ const HomeComponents = (props) => (
           </div>
         </div>
 
-        <div className="col-12 col-sm-5">
+        <div className="col-12 col-md-5 pt-5 pt-md-0">
           <GradientBox>
             <ul>
               {highlights.map((el, idx) => (

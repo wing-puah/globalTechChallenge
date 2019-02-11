@@ -11,6 +11,17 @@ const Button = styled.button`
     cursor: pointer;
   }
 `
+const InputBtn = styled.input`
+  padding: 10px 70px;
+  border: 0px;
+  background: ${props => props.theme.cta};
+  color: white;
+
+  &:hover {
+    background: ${props => props.theme.ctaHover};
+    cursor: pointer;
+  }
+`
 
 const GradientButton = styled(Button)`
   background: linear-gradient(to bottom right, ${props => props.theme.gradientDarkStopOne}, ${props => props.theme.gradientDarkStopTwo});
@@ -23,4 +34,4 @@ const GradientButton = styled(Button)`
   }
 `
 
-export { Button, GradientButton }
+export { Button, GradientButton, InputBtn }

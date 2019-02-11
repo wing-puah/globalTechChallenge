@@ -53,7 +53,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
-    ${media.tablet`padding-top: 60px;`}
+    padding-top: 60px;
   }
 
   h1, h2, h3, h4, h5, h6 {

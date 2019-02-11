@@ -36,7 +36,7 @@ class IndexPage extends Component {
           <h1 className="text-white text-uppercase">National Blockchain Challenge'19</h1>
           <h2 className="text-white">Singapore's first cross-disciplinary blockchain hackathon</h2>
           <div className="row justify-content-center">
-            <div className="col-12 col-sm-6 row">
+            <div className="col-12 col-md-6 row">
               <div className="col-12 col-sm-6">
                 <i className="zmdi zmdi-calendar-note">
                   <span className="pl-4">May-Jun 2019</span>
@@ -48,7 +48,7 @@ class IndexPage extends Component {
                 </i>
               </div>
             </div>
-            <div className="col-12 mt-5">              
+            <div className="col-12 mt-5">
               <GradientButton>Join us today</GradientButton>
             </div>
           </div>
