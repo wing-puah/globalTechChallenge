@@ -49,7 +49,7 @@ class IndexPage extends Component {
               </div>
             </div>
             <div className="col-12 mt-5">
-              <GradientButton>Join us today</GradientButton>
+              <GradientButton>Registration opening soon</GradientButton>
             </div>
           </div>
         </HeaderBanner>

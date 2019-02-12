@@ -31,9 +31,9 @@ const SiteFooter = styled.div`
 `
 
 const FooterBanner = styled.footer`
+  padding: 20px 10px;
   background: ${props => props.theme.footer};
   color: ${props => props.theme.footerFont};
-  ${media.phone`padding: 20px 10px;`}
   ${media.desktopLarge`padding: 20px 40px;`}
 `
 

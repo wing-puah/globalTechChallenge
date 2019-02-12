@@ -70,7 +70,7 @@ const data = [
     name: 'Dr Rex Yeap', designation: 'Vice Chairman', organisation: 'Business Angel Network (BANSEA)', img: Rex, description: '<p>Dr. Rex YEAP is a Vice Chairman of Business Angel Network (BANSEA) and he is also the co-founder of an angel investment fund (BANSEA Fund One) and serves as the Chair in its Investment Committee Board for this fund. Dr. Yeap is an Advisor in the Institute of Blockchain and also the head of Education in the Singapore Cryptocurrency and Blockchain Industry Association (ACCESS). Dr. Yeap has three decades of experience across the Information Technology value chain. He is the co-inventor of the patented IP Blockchain technology and has over <a href="http://ye.sg" class="">20 Information Technology related patents</a> and thousands of inventions over the past three decades.</p>'
   },
   {
-    name: 'Mriganka Pattnaik', designation: 'Founder in Residence', organisation: 'Entrepreneur First', img: Mriganka, description: '<p>Mriganka is the CEO of Merkle Science. He has over 5+ years of experience across investment banking and technology companies. And startup experience across 3 continents.</p>'
+    name: 'Mriganka Pattnaik', designation: 'CEO', organisation: 'Merkle Science', img: Mriganka, description: '<p>Mriganka is the CEO of Merkle Science. He has over 5+ years of experience across investment banking and technology companies. And startup experience across 3 continents.</p>'
   },
   {
     name: 'Alvin Chua', designation: 'President', organisation: 'Institute of Blockchain Singapore (IBS)', img: Alvin, description: '<p>He is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS\'s blockchain community of more than 600 individuals across the globe.</p>'
@@ -91,7 +91,7 @@ const Featured = (props) => {
 
   return(
   <div className="featured-speakers pt-5 mt-5" id="featured">
-    <h2 className="text-center bg-white py-5 mb-3">Speakers . Trainers . Judges . Mentors</h2>
+    <h2 className="text-center bg-white py-5 mb-3 px-2">Speakers &middot; Trainers &middot; Judges &middot; Mentors</h2>
     <div className="row mx-0">
       {data.map((el, idx) => (
         <Speaker className="col-12 col-sm-6 col-lg-3 px-0 mb-5 mb-md-0" key={idx}>

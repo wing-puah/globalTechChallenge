@@ -9,7 +9,7 @@ import Partners from './partners'
 import background from '../../images/bg/coding.jpg'
 
 const highlights = [
-  {icon: 'zmdi-star', content: '$1000 cash prize per vertical'},
+  {icon: 'zmdi-star', content: '3 X $1000 cash prize'},
   {icon: 'zmdi-assignment-check', content: '5+ Master Classes'},
   {icon: 'zmdi-mic-setting', content: '10+ Trainers & Speakers'},
   {icon: 'zmdi-accounts', content: '15+ Mentors & Judges'},
@@ -39,10 +39,10 @@ const HomeComponents = (props) => (
     <Panel className="bg-white" id="about">
       <div className="row align-items-center">
 
-        <div className="col-12 col-md-7 row">
+        <div className="col-12 col-md-7 row px-0">
           <div className="col-12">
             <h2>About</h2>
-            <p>Connecting the various institution, developers and students community to create meaningful conversations around blockchain development and real world use case</p>
+            <p>Connecting institutional, developer and student communities to create meaningful conversations around blockchain development and real world use cases.</p>
           </div>
           <div className="col-12">
             <h3>Mark your dates</h3>

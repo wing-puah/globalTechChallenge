@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from 'styled-components';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'jquery/dist/jquery.slim';
 import 'popper.js';
 
 import { themeLight, GlobalStyle, media } from '../theme/globalStyle'

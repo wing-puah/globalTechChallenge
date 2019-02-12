@@ -54,6 +54,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.8rem;
     line-height: 1.5;
     padding-top: 60px;
+    overflow-x: hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -79,7 +80,7 @@ export const GlobalStyle = createGlobalStyle`
     ${media.tablet`font-size: 3rem;`}
   }
 
-  h2 {
+  h3 {
     font-size: 2rem;
     ${media.tablet`font-size:  2.4rem;`}
   }
@@ -134,6 +135,17 @@ export const GlobalStyle = createGlobalStyle`
     padding: 40px 0;
     @media(min-width: 768px) {
       padding: 85px 0;
+    }
+    @media(min-width: 1500px) {
+      max-width: 1500px;
+    }
+  }
+
+  .gutter {
+    position: relative;
+    padding: 40px 10px;
+    @media(min-width: 768px) {
+      padding: 60px 30px;
     }
     @media(min-width: 1500px) {
       max-width: 1500px;

@@ -1,10 +1,14 @@
 import styled from 'styled-components'
+import { media } from '../theme/globalStyle'
 
 const Button = styled.button`
-  padding: 10px 70px;
+  padding: 10px 40px;
   border: 0px;
   background: ${props => props.theme.cta};
   color: white;
+  ${media.tablet`
+    padding: 10px 70px;
+  `}
 
   &:hover {
     background: ${props => props.theme.ctaHover};
@@ -12,10 +16,13 @@ const Button = styled.button`
   }
 `
 const InputBtn = styled.input`
-  padding: 10px 70px;
+  padding: 10px 20px;
   border: 0px;
   background: ${props => props.theme.cta};
   color: white;
+  ${media.tablet`
+    padding: 10px 70px;
+  `}
 
   &:hover {
     background: ${props => props.theme.ctaHover};

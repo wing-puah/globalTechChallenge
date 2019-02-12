@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { media } from './globalStyle'
 
 const Panel = styled.div`
   padding: 40px 20px;
@@ -12,8 +13,9 @@ const Panel = styled.div`
 `
 
 const Box = styled.div`
+  padding: 30px 10px;
   border: 5px solid ${props => props.theme.borderMute};
-  padding: 30px;
+  ${media.tablet`padding: 30px;`}
 
   ul {
     list-style-type: none;
@@ -39,4 +41,21 @@ const GradientBg = styled.div`
   background: linear-gradient(to top, ${props => props.theme.body}, rgba(255, 255, 255, 0) )
 `
 
-export { Box, Panel, GradientBox, GradientBg }
+const BouncingBox = styled.div`
+  height: 30px;
+  width: 30px;
+  background: ${props => props.theme.ctaHover};
+  transform: scale(0.7);
+  animation: rotating 1.2s linear ${props => props.delay} infinite;
+
+  @keyframes rotating {
+  50% {
+    transform: scale(1) rotate(90deg);
+  }
+  100% {
+    transform: scale(0.8) rotate(90deg);
+  }
+}
+`
+
+export { Box, Panel, GradientBox, GradientBg, BouncingBox }
