@@ -10,6 +10,8 @@ import { GradientButton } from '../theme/button'
 import { media } from '../theme/globalStyle'
 import { animation } from '../scripts/animatedBg'
 
+import NbcLogo from '../images/GTC-brand/NBC_no-font.png'
+
 const HeaderBanner = styled.header`
   h1 {
     font-size: 2rem;
@@ -20,6 +22,11 @@ const HeaderBanner = styled.header`
   h2 {
     font-weight: 300;
     padding-bottom: 10px;
+  }
+
+  .headerLogo {
+    height: 150px;
+    width: auto;
   }
 `
 
@@ -33,6 +40,7 @@ class IndexPage extends Component {
       <Layout>
         <SEO title="National Blockchain Challenge" keywords={[`hackathon`, `challenge`, `Singapore`, `blockchain`]} />
         <HeaderBanner className="text-center container__cstm text-white my-5">
+          <img src={NbcLogo} alt="National Blockchain Challenge" className="headerLogo mb-5"/>
           <h1 className="text-white text-uppercase">National Blockchain Challenge'19</h1>
           <h2 className="text-white">Singapore's first cross-disciplinary blockchain hackathon</h2>
           <div className="row justify-content-center">

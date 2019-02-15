@@ -2,19 +2,22 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import styled from 'styled-components'
+import { media } from '../../theme/globalStyle'
 import { BouncingBox } from '../../theme/boxes'
-import { strategicPartners } from '../_data/partners.data.js'
+import { strategicPartners, enterprisePartners } from '../_data/partners.data.js'
 
 const Logo = styled.div`
   .border__container {
-    height: 200px;
+    height: 100px;
+    ${media.tablet`min-height: 200px;`}
   }
 
   img {
-    min-height: 150px;
-    height: auto;
+
+    height: 100%;
     object-fit: contain;
     max-width: 100%;
+    ${media.tablet`min-height: 150px;`}
   }
 `
 
@@ -31,7 +34,7 @@ const Partner = (props) => (
     <a href={props.url}
        target="_blank"
        rel="noopener noreferrer">
-      <BoxShadow className="border border__container row justify-content-center mx-3 my-4 p-4">
+      <BoxShadow className="border border__container row justify-content-center mx-1 mx-sm- 3 my-4 p-2 p-sm-4">
         <img src={props.img} alt ={props.name} />
       </BoxShadow>
     </a>
@@ -42,7 +45,7 @@ const Partners = (props) => (
   <div className="container__cstm--y my-4" id="partners">
     <div className="bg-white gutter text-center">
       <h2>Our partners</h2>
-      <div className="row"></div>
+      <div className="row mb-5"></div>
         <p className="text-body text-center mb-0 pb-0">Our blockchain platform partners</p>
         <em>To be revealed</em>
         <div className="py-5">
@@ -55,7 +58,12 @@ const Partners = (props) => (
             className="d-inline-block"
             delay="0.4s" />
         </div>
-
+      <p className="text-body text-center mb-0 pb-0">Our enterprise partners</p>
+      <div className="row mb-5 justify-content-center">
+        {enterprisePartners.map((el, idx) => (
+          <Partner {...el} key={idx} />
+        ))}
+      </div>
       <p className="text-body text-center mb-0 pb-0">Our strategic partners</p>
       <div className="row">
         {strategicPartners.map((el, idx) => (

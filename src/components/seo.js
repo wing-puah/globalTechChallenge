@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 
-// import { favicon } from '../images/GTC-brand/favicon.png'
+// import { FBpixel } from '../scripts/fbPixel'
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -78,7 +78,9 @@ function SEO({ description, lang, meta, keywords, title }) {
                 src: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
               }
             ]}
-          />
+          >
+
+        </Helmet>
         )
       }}
     />

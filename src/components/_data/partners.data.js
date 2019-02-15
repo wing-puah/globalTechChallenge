@@ -6,6 +6,8 @@ import Ibs from '../../images/partner-brand/IBS.jpg'
 import Ikiguide from '../../images/partner-brand/ikiguide.png'
 import Sbc from '../../images/partner-brand/SBC.png'
 
+import Sakae from '../../images/partner-brand/Sakae-fintech.png'
+
 const strategicPartners = [
   {
     name: 'Blockchain & Dapps',
@@ -20,7 +22,7 @@ const strategicPartners = [
   {
     name: 'Ikiguide',
     img: Ikiguide,
-    url: 'www.ikiguide.com/'
+    url: '//www.ikiguide.com/'
   },
   {
     name: 'Institute Of Blockchain Singapore',
@@ -44,4 +46,12 @@ const strategicPartners = [
   }
 ]
 
-export { strategicPartners };
+const enterprisePartners = [
+  {
+    name: 'Sakae Fintech',
+    img: Sakae,
+    url: 'https://www.sakaefintech.com/'
+  }
+]
+
+export { strategicPartners, enterprisePartners };

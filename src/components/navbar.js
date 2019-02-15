@@ -3,17 +3,18 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import { media } from '../theme/globalStyle'
-import mobileLogo from '../images/GTC-brand/gtc_logo_web.jpg'
-import logo from '../images/GTC-brand/gtc-logo-long.png'
+import mobileLogo from '../images/GTC-brand/GTC_without-font.png'
+import logo from '../images/GTC-brand/GTC_with-long-font.png'
 
 const NavLogo = styled.div`
-  max-width: 400px;
+  max-width: 50px;
   max-height: 40px;
   margin-bottom: 0;
   height: 50px;
   width: 100px;
   background: url(${mobileLogo}) center/contain no-repeat;
   ${media.tablet`
+    max-width: 400px;
     background: url(${logo}) left center/contain no-repeat;
     width: 500px;
   `}
