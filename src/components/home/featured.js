@@ -45,14 +45,14 @@ const Speaker = styled.div`
       z-index: 0;
       transition: all 0.6s ease-in;
       opacity: 0.9;
-      background: ${props => props.theme.secondary}
+      background: ${props => props.theme.primary}
 
       a {
         color: white;
       }
 
       a:hover {
-        color: ${props => props.theme.primary}
+        text-decoration: underline;
       }
     `}
   }

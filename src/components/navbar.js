@@ -27,10 +27,11 @@ const NavList = styled.div`
 
 const pages = [
   {url: '/', name: 'Home'},
-  {url: '/#about', name: 'About'},
   {url: '/#overview', name:'Overview'},
   {url: '/#featured', name:'Judges/Mentors'},
   {url: '/#partners', name:'Partners'},
+  // {url: '/team', name:'Team'},
+  // {url: '/news-and-updates', name: 'News & updates'},
   {url: '/#contact', name:'Contact'}
 ];
 

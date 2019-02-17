@@ -17,18 +17,19 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
 }, {})
 
 export const themeLight = {
-  primary: '#EC273A',
-  secondary: '#17BEBB',
+  primary: '#00AAA2',
+  secondary: '#587287',
+  dark: '#2F3D4B',
   cta: '#FF9505',
-  ctaHover: '#388697',
+  ctaHover: '#587287',
   mute: '#aaa',
   body: '#222',
   footer: '#1b1b1b',
   footerFont: '#fff',
   bgMute: '#f9f9f9',
   borderMute: '#f7f7f7',
-  gradientStopOne: '#fc354c',
-  gradientStopTwo: '#0abfbc',
+  gradientStopOne: '#e2e4e6',
+  gradientStopTwo: '#ecf0f5',
   gradientLightStopOne: '#abbaab',
   gradientLightStopTwo: '#fff',
   gradientDarkStopOne: '#780206',
@@ -53,7 +54,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
-    padding-top: 60px;
     overflow-x: hidden;
   }
 
@@ -61,6 +61,10 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: ${props => props.theme.primary};
+  }
+
+  h1 {
+    color: white;
   }
 
   h1, h2 {
@@ -106,6 +110,15 @@ export const GlobalStyle = createGlobalStyle`
     @media(min-width: 568px) {
       padding-top: 63px;
     }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .body {
+    padding-top: 65px;
   }
 
   .site-footer i.zmdi {

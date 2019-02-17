@@ -58,4 +58,60 @@ const BouncingBox = styled.div`
 }
 `
 
-export { Box, Panel, GradientBox, GradientBg, BouncingBox }
+const OddShape = styled.div`
+  min-height: 115px;
+  position: relative;
+  background-color: papayaWhip;
+  border-radius: 20px;
+  box-shadow: 10px 0px #ccc;
+  float: left;
+  padding: 20px 10px 10px;
+  z-index: 1;
+  ${media.tablet`padding: 20px 40px 10px;`}
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 75px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: papayaWhip;
+    transform: rotate(-2deg) skew(-2deg);
+    z-index: 0;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -42px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 110px;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: papayaWhip;
+    box-shadow: 10px 10px 0 #ccc;
+    transform: rotate(6deg) skew(6deg) scaleX(1.005);
+    z-index: 0;
+  }
+
+  .oddShape__content {
+    position: relative;
+    z-index: 5;
+
+    p:last-child {
+      padding-bottom: 0;
+    }
+  }
+`
+
+export { Box, Panel, GradientBox, GradientBg, BouncingBox, OddShape }

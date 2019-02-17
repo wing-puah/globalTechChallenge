@@ -1,70 +1,48 @@
-import React, { Component } from "react"
-// import { Link } from "gatsby"
+import React from "react"
 import styled from 'styled-components'
+
 import SEO from "../components/seo"
-
 import Layout from "../components/layout"
-import HomeComponents from '../components/home/allHomeComponents'
+import HeroBanner from "../components/home/heroBanner"
+import About from '../components/home/about'
+import Overview from '../components/home/overview'
+import Featured from '../components/home/featured'
+import Partners from '../components/home/partners'
 
-import { GradientButton } from '../theme/button'
-import { media } from '../theme/globalStyle'
-import { animation } from '../scripts/animatedBg'
+import background from '../images/bg/coding.jpg'
 
-import NbcLogo from '../images/GTC-brand/NBC_no-font.png'
+const Background = styled.div`
+  background: url(${background}) 50% 20%/cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 30vh;
+  position: relative;
 
-const HeaderBanner = styled.header`
-  h1 {
-    font-size: 2rem;
-    ${media.tablet`font-size: 4.5rem;`}
-    padding-bottom:10px;
-  }
-
-  h2 {
-    font-weight: 300;
-    padding-bottom: 10px;
-  }
-
-  .headerLogo {
-    height: 150px;
-    width: auto;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(67, 67, 67, 0.3) );
   }
 `
 
-class IndexPage extends Component {
-  componentDidMount() {
-    animation();
-  }
+const IndexPage = () => (
+  <Layout>
+    <SEO title="National Blockchain Challenge" keywords={[`hackathon`, `challenge`, `Singapore`, `blockchain`]} />
 
-  render() {
-    return (
-      <Layout>
-        <SEO title="National Blockchain Challenge" keywords={[`hackathon`, `challenge`, `Singapore`, `blockchain`]} />
-        <HeaderBanner className="text-center container__cstm text-white my-5">
-          <img src={NbcLogo} alt="National Blockchain Challenge" className="headerLogo mb-5"/>
-          <h1 className="text-white text-uppercase">National Blockchain Challenge'19</h1>
-          <h2 className="text-white">Singapore's first cross-disciplinary blockchain hackathon</h2>
-          <div className="row justify-content-center">
-            <div className="col-12 col-md-6 row">
-              <div className="col-12 col-sm-6">
-                <i className="zmdi zmdi-calendar-note">
-                  <span className="pl-4">May-Jun 2019</span>
-                </i>
-              </div>
-              <div className="col-12 col-sm-6">
-                <i className="zmdi zmdi zmdi-pin">
-                  <span className="pl-4">Singapore</span>
-                </i>
-              </div>
-            </div>
-            <div className="col-12 mt-5">
-              <GradientButton>Registration opening soon</GradientButton>
-            </div>
-          </div>
-        </HeaderBanner>
-        <HomeComponents />
-      </Layout>
-    )
-  }
-}
+    <HeroBanner />
+    <div className="container">
+      <About />
+      <Background />
+      <Overview />
+      <Featured />
+      <Partners />
+    </div>
+
+  </Layout>
+)
 
 export default IndexPage
