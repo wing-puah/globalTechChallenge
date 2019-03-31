@@ -1,41 +1,40 @@
-import { createGlobalStyle, css } from 'styled-components'
+import { createGlobalStyle, css } from "styled-components";
 
 const sizes = {
   desktopLarge: 2400,
   desktop: 1500,
   tablet: 768,
   phone: 576
-}
+};
 
 export const media = Object.keys(sizes).reduce((acc, label) => {
   acc[label] = (...args) => css`
     @media (min-width: ${sizes[label] / 16}em) {
       ${css(...args)}
     }
-  `
-  return acc
-}, {})
+  `;
+  return acc;
+}, {});
 
 export const themeLight = {
-  primary: '#00AAA2',
-  secondary: '#587287',
-  dark: '#2F3D4B',
-  cta: '#FF9505',
-  ctaHover: '#587287',
-  mute: '#aaa',
-  body: '#222',
-  footer: '#1b1b1b',
-  footerFont: '#fff',
-  bgMute: '#f9f9f9',
-  borderMute: '#f7f7f7',
-  gradientStopOne: '#e2e4e6',
-  gradientStopTwo: '#ecf0f5',
-  gradientLightStopOne: '#abbaab',
-  gradientLightStopTwo: '#fff',
-  gradientDarkStopOne: '#780206',
-  gradientDarkStopTwo: '#061161'
-}
-
+  primary: "#00AAA2",
+  secondary: "#587287",
+  dark: "#2F3D4B",
+  cta: "#FF9505",
+  ctaHover: "#587287",
+  mute: "#aaa",
+  body: "#222",
+  footer: "#1b1b1b",
+  footerFont: "#fff",
+  bgMute: "#f9f9f9",
+  borderMute: "#f7f7f7",
+  gradientStopOne: "#e2e4e6",
+  gradientStopTwo: "#ecf0f5",
+  gradientLightStopOne: "#abbaab",
+  gradientLightStopTwo: "#fff",
+  gradientDarkStopOne: "#780206",
+  gradientDarkStopTwo: "#061161"
+};
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Montserrat:300,800|Open+Sans');
@@ -119,6 +118,7 @@ export const GlobalStyle = createGlobalStyle`
 
   .body {
     padding-top: 65px;
+    background: rgba(0,0,0,0.4);
   }
 
   .site-footer i.zmdi {
@@ -174,4 +174,9 @@ export const GlobalStyle = createGlobalStyle`
     z-index: -44;
     opacity: 0.8;
   }
-`
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    cursor: pointer;
+    border-bottom: 1px solid ${props => props.theme.primary};
+  }
+`;

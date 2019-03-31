@@ -1,25 +1,25 @@
-import React, { Fragment, useEffect } from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-import styled, { ThemeProvider } from 'styled-components';
+import React, { Fragment, useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { StaticQuery, graphql } from "gatsby";
+import styled, { ThemeProvider } from "styled-components";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'popper.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "popper.js";
 
-import { themeLight, GlobalStyle, media } from '../theme/globalStyle'
-import homeBg from '../images/home-bg.mp4'
-import homeBgWeb from '../images/home-bg.webm'
-import { animation } from '../scripts/animatedBg'
+import { themeLight, GlobalStyle, media } from "../theme/globalStyle";
+import homeBg from "../images/home-bg.mp4";
+import homeBgWeb from "../images/home-bg.webm";
 
-import Navbar from "./navbar"
-import { ContactFooter, Footer } from './footer'
+import Mailchimp from "./signUpForm";
+import Navbar from "./navbar";
+import { ContactFooter, Footer } from "./footer";
 
 const BgVideo = styled.div`
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height:100vh;
+  height: 100vh;
   z-index: -55;
 
   video {
@@ -29,12 +29,15 @@ const BgVideo = styled.div`
       width: 100%;
     `}
   }
-`
+`;
 
 const Layout = ({ children }) => {
+  const [isWebLoaded, toggleWebLoaded] = useState(false);
+
   useEffect(() => {
-    animation();
-  });
+    console.log("let me run");
+    toggleWebLoaded(true);
+  }, []);
 
   return (
     <ThemeProvider theme={themeLight}>
@@ -53,12 +56,14 @@ const Layout = ({ children }) => {
             <GlobalStyle />
             <Navbar />
             <div className="body">
-              <BgVideo>
-                <video loop autoPlay muted>
-                  <source src={homeBg} type="video/mp4"/>
-                  <source src={homeBgWeb} type="video/webm"/>
-                </video>
-              </BgVideo>
+              {Boolean(isWebLoaded) && (
+                <BgVideo>
+                  <video loop autoPlay muted>
+                    <source src={homeBg} type="video/mp4" />
+                    <source src={homeBgWeb} type="video/webm" />
+                  </video>
+                </BgVideo>
+              )}
               <div>
                 {children}
                 <div className="container">
@@ -74,9 +79,8 @@ const Layout = ({ children }) => {
   );
 };
 
-
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired
+};
 
-export default Layout
+export default Layout;

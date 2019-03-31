@@ -1,13 +1,15 @@
-import React from "react"
+import React, { Component } from "react"
 import styled from 'styled-components'
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+
 import HeroBanner from "../components/home/heroBanner"
 import About from '../components/home/about'
 import Overview from '../components/home/overview'
 import Featured from '../components/home/featured'
 import Partners from '../components/home/partners'
+
 
 import background from '../images/bg/coding.jpg'
 
@@ -29,20 +31,24 @@ const Background = styled.div`
   }
 `
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="National Blockchain Challenge" keywords={[`hackathon`, `challenge`, `Singapore`, `blockchain`]} />
+class IndexPage extends Component {
+  render() {
+    return (
+      <Layout>
+        <SEO title="National Blockchain Challenge" keywords={[`hackathon`, `challenge`, `Singapore`, `blockchain`]} />
 
-    <HeroBanner />
-    <div className="container">
-      <About />
-      <Background />
-      <Overview />
-      <Featured />
-      <Partners />
-    </div>
+        <HeroBanner />
+        <div className="container">
+          <About />
+          <Background />
+          <Overview />
+          <Featured />
+          <Partners />
+        </div>
 
-  </Layout>
-)
+      </Layout>
+    )
+  }
+}
 
 export default IndexPage
