@@ -43,12 +43,16 @@ const pages = [
   { url: "/#partners", name: "Partners" },
   // {url: '/team', name:'Team'},
   // {url: '/news-and-updates', name: 'News & updates'},
-  { url: "/#contact", name: "Contact" },
-  { url: "/register", name: "Register" }
+  { url: "/#contact", name: "Contact" }
+  // { url: "/register", name: "Register" }
 ];
 
 const Navbar = props => {
-  const currentPath = `/${window.location.href.split("/").pop()}`;
+  let currentPath;
+
+  if (typeof window !== "undefined") {
+    currentPath = `/${window.location.href.split("/").pop()}`;
+  }
 
   return (
     <header>
