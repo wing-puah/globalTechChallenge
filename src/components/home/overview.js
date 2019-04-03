@@ -79,7 +79,7 @@ const Overview = props => (
 
       <ReactTabsRow>
         <TabPanel>
-          <h3 className="text-body">May 2019</h3>
+          <h3 className="text-body">24-25 May 2019</h3>
           <Accordion data={DayOneWs} />
           <h3 className="text-body">1 June 2019</h3>
           <Accordion data={DayTwoWs} />
