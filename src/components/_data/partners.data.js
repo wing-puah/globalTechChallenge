@@ -1,57 +1,64 @@
-import Bcd from '../../images/partner-brand/blockchain-dapp.jpeg'
-import Dadc from '../../images/partner-brand/dadc.png'
-import Geekwing from '../../images/partner-brand/geekwing.png'
-import HungryLab from '../../images/partner-brand/hungrylab.jpg'
-import Ibs from '../../images/partner-brand/IBS.jpg'
-import Ikiguide from '../../images/partner-brand/ikiguide.png'
-import Sbc from '../../images/partner-brand/SBC.png'
-
-import Sakae from '../../images/partner-brand/Sakae-fintech.png'
+const blockchainPartners = [
+  {
+    name: "Origin",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/Origin.jpg",
+    url: "https://www.originprotocol.com/en"
+  }
+];
 
 const strategicPartners = [
   {
-    name: 'Blockchain & Dapps',
-    img: Bcd,
-    url: 'https://www.meetup.com/en-AU/BlockChain-Dapps-Technology/'
+    name: "Blockchain & Dapps",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/blockchain-dapp.jpg",
+    url: "https://www.meetup.com/en-AU/BlockChain-Dapps-Technology/"
   },
   {
-    name: 'DADC',
-    img: Dadc,
-    url: 'https://dappsdev.org/'
+    name: "DADC",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/dadc.png",
+    url: "https://dappsdev.org/"
   },
   {
-    name: 'Ikiguide',
-    img: Ikiguide,
-    url: '//www.ikiguide.com/'
+    name: "Ikiguide",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/ikiguide.png",
+    url: "//www.ikiguide.com/"
   },
   {
-    name: 'Institute Of Blockchain Singapore',
-    img: Ibs,
-    url: 'https://ibs.edu.sg/'
+    name: "Institute Of Blockchain Singapore",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Alvin.jpg",
+    url: "https://ibs.edu.sg/"
   },
   {
-    name: 'The Geek Wing',
-    img: Geekwing,
-    url: 'https://www.thegeekwing.com'
+    name: "The Geek Wing",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/geekwing.png",
+    url: "https://www.thegeekwing.com"
   },
   {
-    name: 'The Hungry Lab',
-    img: HungryLab,
-    url: 'https://www.thehungrylab.com/'
+    name: "The Hungry Lab",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/hungrylab.jpg",
+    url: "https://www.thehungrylab.com/"
   },
   {
-    name: 'Singapore Bitcoin club',
-    img: Sbc,
-    url: 'http://singaporebitcoinclub.sg/'
+    name: "Singapore Bitcoin club",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629673/partners/SBC.png",
+    url: "http://singaporebitcoinclub.sg/"
   }
-]
+];
 
 const enterprisePartners = [
   {
-    name: 'Sakae Fintech',
-    img: Sakae,
-    url: 'https://www.sakaefintech.com/'
+    name: "Sakae Fintech",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629679/partners/Sakae-fintech.png",
+    url: "https://www.sakaefintech.com/"
   }
-]
+];
 
-export { strategicPartners, enterprisePartners };
+export { blockchainPartners, strategicPartners, enterprisePartners };

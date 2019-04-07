@@ -2,15 +2,22 @@ module.exports = {
   siteMetadata: {
     title: `National Blockchain Challenge`,
     description: `Encouraging academics community to design and develop business solutions using blockchain platform`,
-    author: `Global Technology Challenge`,
+    author: `Global Technology Challenge`
   },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -21,16 +28,16 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/images/GTC-brand/favicon.png`, // This path is relative to the root of the site.
-      },
+        icon: `src/images/GTC-brand/favicon.png` // This path is relative to the root of the site.
+      }
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-134286032-1",
-      },
+        trackingId: "UA-134286032-1"
+      }
     }
-  ],
-}
+  ]
+};

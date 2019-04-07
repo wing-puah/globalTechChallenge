@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
-import Helmet from "react-helmet"
-import { StaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
 
 // import { FBpixel } from '../scripts/fbPixel'
 
@@ -11,16 +11,17 @@ function SEO({ description, lang, meta, keywords, title }) {
       query={detailsQuery}
       render={data => {
         const metaDescription =
-          description || data.site.siteMetadata.description
+          description || data.site.siteMetadata.description;
         return (
           <Helmet
             htmlAttributes={{
-              lang,
+              lang
             }}
             link={[
               {
                 rel: "stylesheet",
-                href: "https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+                href:
+                  "https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
               }
             ]}
             title={title}
@@ -28,80 +29,84 @@ function SEO({ description, lang, meta, keywords, title }) {
             meta={[
               {
                 name: `description`,
-                content: metaDescription,
+                content: metaDescription
               },
               {
                 property: `og:title`,
-                content: title,
+                content: title
               },
               {
                 property: `og:description`,
-                content: metaDescription,
+                content: metaDescription
               },
               {
                 property: `og:type`,
-                content: `website`,
+                content: `website`
               },
               {
                 name: `twitter:card`,
-                content: `summary`,
+                content: `summary`
               },
               {
                 name: `twitter:creator`,
-                content: data.site.siteMetadata.author,
+                content: data.site.siteMetadata.author
               },
               {
                 name: `twitter:title`,
-                content: title,
+                content: title
               },
               {
                 name: `twitter:description`,
-                content: metaDescription,
-              },
+                content: metaDescription
+              }
             ]
               .concat(
                 keywords.length > 0
                   ? {
                       name: `keywords`,
-                      content: keywords.join(`, `),
+                      content: keywords.join(`, `)
                     }
                   : []
               )
               .concat(meta)}
             script={[
               {
-                src:"https://code.jquery.com/jquery-3.3.1.slim.min.js",
-                integrity: "sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=",
+                async: true,
+                defer: true,
+                src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+                integrity:
+                  "sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=",
                 crossorigin: "anonymous"
               },
               {
-                src: "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+                async: true,
+                defer: true,
+                src:
+                  "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
               }
             ]}
-          >
-
-        </Helmet>
-        )
+          />
+        );
       }}
     />
-  )
+  );
 }
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
-}
+  keywords: []
+};
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired,
-}
+  title: PropTypes.string.isRequired
+};
 
-export default SEO
+export default SEO;
 
 const detailsQuery = graphql`
   query DefaultSEOQuery {
@@ -113,4 +118,4 @@ const detailsQuery = graphql`
       }
     }
   }
-`
+`;

@@ -35,7 +35,6 @@ const Layout = ({ children }) => {
   const [isWebLoaded, toggleWebLoaded] = useState(false);
 
   useEffect(() => {
-    console.log("let me run");
     toggleWebLoaded(true);
   }, []);
 

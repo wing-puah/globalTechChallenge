@@ -29,9 +29,14 @@ const About = props => (
           <ul>
             <li>Preliminary hackathon: Prepare your slide decks</li>
           </ul>
-          <h3 className="text-body">14-15 June</h3>
+          <h3 className="text-body">14-16 June</h3>
           <ul>
             <li>Final hackathon: Create your prototype and pitch</li>
+          </ul>
+          <h3 className="text-body">16 June</h3>
+          <ul>
+            <li>Hackathon judging day</li>
+            <li>Panel discussion</li>
             <li>Career fair</li>
           </ul>
 

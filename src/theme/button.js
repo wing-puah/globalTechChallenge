@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { media } from '../theme/globalStyle'
+import styled from "styled-components";
+import { media } from "../theme/globalStyle";
 
 const Button = styled.button`
   padding: 10px 40px;
@@ -14,7 +14,11 @@ const Button = styled.button`
     background: ${props => props.theme.ctaHover};
     cursor: pointer;
   }
-`
+
+  &:focus {
+    outline: none;
+  }
+`;
 const InputBtn = styled.input`
   padding: 10px 20px;
   border: 0px;
@@ -28,17 +32,21 @@ const InputBtn = styled.input`
     background: ${props => props.theme.ctaHover};
     cursor: pointer;
   }
-`
+`;
 
 const GradientButton = styled(Button)`
-  background: linear-gradient(to bottom right, ${props => props.theme.gradientDarkStopOne}, ${props => props.theme.gradientDarkStopTwo});
+  background: linear-gradient(
+    to bottom right,
+    ${props => props.theme.gradientDarkStopOne},
+    ${props => props.theme.gradientDarkStopTwo}
+  );
   border: 1px solid white;
   border-radius: 25px;
 
   &:hover {
     background: ${props => props.theme.gradientDarkStopTwo};
-    border: 1px solid transparent
+    border: 1px solid transparent;
   }
-`
+`;
 
-export { Button, GradientButton, InputBtn }
+export { Button, GradientButton, InputBtn };
