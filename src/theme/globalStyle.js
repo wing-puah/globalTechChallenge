@@ -179,4 +179,8 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
     border-bottom: 1px solid ${props => props.theme.primary};
   }
+
+  .text--brand {
+    color: ${props => props.theme.primary};
+  }
 `;

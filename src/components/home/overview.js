@@ -16,7 +16,7 @@ const DayOneWs = [
   {
     title: "Introduction to blockchain and design thinking",
     paragraph:
-      "<li>Become familiar with the high overview of the blockchain system. Design thinking will be integrated to this course such that participants could understand a systematic way to approach problem-solving.</li><br/><li><strong>Takeaway:</strong> You will be able to understand the basic terminology used in blockchain and articulate the advantages of using blockchain as a tool.</li>"
+      "<li>Become familiar with the high overview of the blockchain system. Design thinking will be integrated to this course such that participants could understand a systematic way to approach problem-solving.</li><br/><li><strong>Takeaway:</strong> You will be able to understand the basic terminology used in blockchain and articulate the advantages of using blockchain as a tool.</li><p class='pt-5 pb-0 mb-0 text-right'><em>Institute of Blockchain Singapore</em></p>"
   }
 ];
 
@@ -29,7 +29,7 @@ const DayTwoWs = [
   {
     title: "Effective presentation and personal branding",
     paragraph:
-      "<li>Learn the psychology and anatomy of delivering an effective presentation. This workshop will also impart the knowledge of tapping across social media to have a strategic professional positioning.</li><br/><li><strong>Takeaway:</strong> You will be able to craft an elevator pitch, structure an impactful presentation and improve their personal branding.</li>"
+      "<li>Learn the psychology and anatomy of delivering an effective presentation. This workshop will also impart the knowledge of tapping across social media to have a strategic professional positioning.</li><br/><li><strong>Takeaway:</strong> You will be able to craft an elevator pitch, structure an impactful presentation and improve their personal branding.</li><p class='pt-5 pb-0 mb-0 text-right'><em>Ikiguide</em></p>"
   },
   {
     title: "User experience (UX) design process",

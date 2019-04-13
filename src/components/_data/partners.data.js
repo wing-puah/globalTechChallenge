@@ -29,7 +29,7 @@ const strategicPartners = [
   {
     name: "Institute Of Blockchain Singapore",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Alvin.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1555166365/partners/IBS.jpg",
     url: "https://ibs.edu.sg/"
   },
   {
@@ -56,7 +56,7 @@ const enterprisePartners = [
   {
     name: "Sakae Fintech",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1554629679/partners/Sakae-fintech.png",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1555166359/partners/Sakae-fintech.jpg",
     url: "https://www.sakaefintech.com/"
   }
 ];

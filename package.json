@@ -46,5 +46,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "gatsby-plugin-remove-trailing-slashes": "^2.0.10"
   }
 }

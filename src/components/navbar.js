@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
+import { Location } from "@reach/router";
 
 import { media } from "../theme/globalStyle";
 import mobileLogo from "../images/GTC-brand/GTC_without-font.png";
@@ -41,7 +42,7 @@ const pages = [
   { url: "/#overview", name: "Overview" },
   { url: "/#featured", name: "Judges/Mentors" },
   { url: "/#partners", name: "Partners" },
-  // {url: '/team', name:'Team'},
+  { url: "/team", name: "Team" },
   // {url: '/news-and-updates', name: 'News & updates'},
   { url: "/#contact", name: "Contact" }
   // { url: "/register", name: "Register" }
@@ -51,9 +52,14 @@ const Navbar = props => {
   let currentPath;
 
   if (typeof window !== "undefined") {
-    currentPath = `/${window.location.href.split("/").pop()}`;
+    // currentPath = `/${window.location.href.split("/").pop()}`;
+    currentPath =
+      window.location.hash !== ""
+        ? window.location.hash
+        : window.location.pathname;
+    console.log(window.location.hash);
+    console.log("cr", currentPath);
   }
-
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-white px-0 pb-0 px-sm-5 py-sm-3 border-bottom fixed-top">
@@ -79,10 +85,16 @@ const Navbar = props => {
         >
           <ul className="navbar-nav ml-auto">
             {pages.map((el, i) => {
-              const navCN =
-                currentPath === el.url ? "nav-link active" : "nav-link";
+              // const navCN =
+              //   currentPath === el.url ? "nav-link active" : "nav-link";
+              // console.log(currentPath);
               return (
-                <Link to={el.url} key={i} className={navCN}>
+                <Link
+                  to={el.url}
+                  key={i}
+                  className="nav-link"
+                  activeClassName="active"
+                >
                   <li className="nav-item mb-0 px-3">{el.name}</li>
                 </Link>
               );

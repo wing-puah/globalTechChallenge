@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `National Blockchain Challenge`,
     description: `Encouraging academics community to design and develop business solutions using blockchain platform`,
-    author: `Global Technology Challenge`
+    author: `Global Technology Challenge`,
+    imgCDN: `https://res.cloudinary.com/gtcmain`
   },
   plugins: [
     {
@@ -21,6 +22,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
