@@ -57,7 +57,7 @@ const teamData = [
   {
     name: "Laurence Zhang",
     designation: "",
-    img: "/image/upload/v1554629714/speakers/Laurence-Zhang.jpg",
+    img: "/image/upload/v1555857617/speakers/Laurence-Zhang.jpg",
     description:
       "<p>Laurence is an accomplished software consultant with over 20 years of full-stack software development. Besides that he is also professionally certified for Blockchain for Business under the Linux Foundation, ACTA, and a Google Cloud & Microsoft Azure consultant. Besides actively contributing to Institute of Blockchain, he is also the ambassador of Kleros.</p>"
   },

@@ -12,7 +12,7 @@ const highlights = [
 
 const About = props => (
   <Panel className="bg-white" id="about">
-    <div className="px-4 pb-5">
+    <div className="px-0 px-sm-4 pb-5">
       <h2 className="text-center">About</h2>
       <p className="pb-0 text-center">
         Blockchain is an emerging technology that is increasingly incorporated
@@ -23,22 +23,24 @@ const About = props => (
       </p>
 
       <div className="row align-items-center container__cstm--y">
-        <div className="col-12 col-sm-7 pl-sm-0 order-1 order-sm-0">
-          <h2>Mark your dates</h2>
-          <h3 className="text-body">June</h3>
-          <ul>
-            <li>Preliminary hackathon: Prepare your slide decks</li>
-          </ul>
-          <h3 className="text-body">14-16 June</h3>
-          <ul>
-            <li>Final hackathon: Create your prototype and pitch</li>
-          </ul>
-          <h3 className="text-body">16 June</h3>
-          <ul>
-            <li>Hackathon judging day</li>
-            <li>Panel discussion</li>
-            <li>Career fair</li>
-          </ul>
+        <div className="col-12 col-sm-7 pl-sm-0 order-1 order-sm-0 px-0">
+          <div className="phoneMT">
+            <h2>Mark your dates</h2>
+            <h3 className="text-body">June</h3>
+            <ul>
+              <li>Preliminary hackathon: Prepare your slide decks</li>
+            </ul>
+            <h3 className="text-body">14-16 June</h3>
+            <ul>
+              <li>Final hackathon: Create your prototype and pitch</li>
+            </ul>
+            <h3 className="text-body">16 June</h3>
+            <ul>
+              <li>Hackathon judging day</li>
+              <li>Panel discussion</li>
+              <li>Career fair</li>
+            </ul>
+          </div>
 
           <div className="pt-5 pr-sm-5">
             <GradientBox>

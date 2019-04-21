@@ -85,7 +85,16 @@ const data = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Alvin.jpg",
     description:
-      "<p>He is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS's blockchain community of more than 600 individuals across the globe.</p>"
+      "<p>Alvin is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS's blockchain community of more than 600 individuals across the globe.</p>"
+  },
+  {
+    name: "Gustavor Liu",
+    designation: "Co-founder",
+    organisation: "The Hungry Lab",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1555858347/speakers/gustavo.jpg",
+    description:
+      "<p>Gustavo is the co-founder of The Hungry Lab and founder of EAT launchpad and a podcast host. He is a private banker with 12 years in wealth management and currently seats on the advisory board of various companies. He speaks 5 languages and has a MBA and degress in Computer Science and Mathematics. He has worked with notable brands like HSBC, UOB and Citibank.</p>"
   },
   {
     name: "Kenneth Hu",
@@ -101,7 +110,7 @@ const data = [
     designation: "Director of Technology",
     organisation: "Institute of Blockchain Singapore (IBS)",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Laurence-Zhang.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1555857617/speakers/Laurence-Zhang.jpg",
     description:
       "<p>Laurence is an accomplished software consultant with over 20 years of full-stack software development. Besides that he is also professionally certified for Blockchain for Business under the Linux Foundation, ACTA, and a Google Cloud & Microsoft Azure consultant. Besides actively contributing to Institute of Blockchain, he is also the ambassador of Kleros.</p>"
   },
