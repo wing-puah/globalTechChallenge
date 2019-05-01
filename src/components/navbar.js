@@ -95,7 +95,7 @@ const Navbar = props => {
                   className="nav-link"
                   activeClassName="active"
                 >
-                  <li className="nav-item mb-0 px-3">{el.name}</li>
+                  <li className="nav-item mb-0 px-3 py-3 py-sm-0">{el.name}</li>
                 </Link>
               );
             })}

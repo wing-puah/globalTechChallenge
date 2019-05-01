@@ -9,7 +9,10 @@ const Speaker = styled.div`
   img {
     object-fit: cover;
     width: 100%;
-    height: 400px;
+    height: 200px;
+    ${media.tablet`
+      height: 400px;
+      `}
   }
 
   .speaker-info {
@@ -138,7 +141,7 @@ const data = [
     designation: "CTO",
     organisation: "Merkle Science",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1556711592/speakers/Nirmal.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1556713681/speakers/Nirmal.jpg",
     description:
       "<p>Nirmal is an experienced data scientist with a demonstrated history of working in the internet industry with Paypal and Instamojo. Skilled at Statistics, Python, SQL, AWS. Strong finance professional with a Bachelor of Technology (B.Tech.) from Indian Institute of Technology, Madras.</p>"
   },

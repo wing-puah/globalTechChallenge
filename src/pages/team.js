@@ -105,11 +105,25 @@ const TeamProfile = styled.div`
     }
   }
 
+  .team-img__container {
+    height: 280px;
+
+    .img__clip {
+      height: 230px;
+      overflow: hidden;
+    }
+  }
+
   ${media.tablet`
     .team-img__container{
       position: relative;
       height: 250px;
       margin-bottom: 50px;
+
+      .img__clip {
+        height: 200px;
+        width: 200px;
+      }
 
       &:hover {
         cursor: pointer;
@@ -122,7 +136,7 @@ const TeamProfile = styled.div`
         .img__clip {
           border-radius: 15px;
           border: 0;
-          height: 100%;
+          height: 230px;
 
           img {
             filter: opacity(80%);
