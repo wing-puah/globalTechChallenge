@@ -26,8 +26,9 @@ const About = props => (
         <div className="col-12 col-sm-7 pl-sm-0 order-1 order-sm-0 px-0">
           <div className="phoneMT">
             <h2>Mark your dates</h2>
-            <h3 className="text-body">June</h3>
+            <h3 className="text-body">May-June</h3>
             <ul>
+              <li>Workshops: Learn from the industry experts</li>
               <li>Preliminary hackathon: Prepare your slide decks</li>
             </ul>
             <h3 className="text-body">14-16 June</h3>

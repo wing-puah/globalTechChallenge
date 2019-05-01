@@ -44,6 +44,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: `website`
               },
               {
+                name: `og:image`,
+                content: `https://res.cloudinary.com/gtcmain/image/upload/c_scale,h_826/v1556702270/brand_assets/poster-03.jpg`
+              },
+              {
                 name: `twitter:card`,
                 content: `summary`
               },

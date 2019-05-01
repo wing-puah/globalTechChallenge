@@ -30,7 +30,7 @@ const teamData = [
   {
     name: "Wong Zi Hui",
     designation: "Head Of Operations",
-    img: "/image/upload/v1555142881/team/zihui.jpg",
+    img: "/image/upload/v1556712309/team/zihui.jpg",
     description:
       "<p>Zi Hui is an experienced Day Trader with a demonstrated history of working in the banking industry. Skilled in Transfer Pricing, Microsoft Word, Banking, Public Speaking, and Market Research. Strong finance professional with a Bachelor’s Degree focused in Banking and Financial Support Services from Monash University.</p>"
   },
@@ -168,7 +168,7 @@ const Team = () => (
     render={data => (
       <Layout>
         <SEO title="Team" />
-        <div className="container__cstm team my-3">
+        <div className="container team my-5 py-5">
           <div className="bg-white p-5">
             <h1 className="text-center text--brand">Meet the team</h1>
             <div className="row">

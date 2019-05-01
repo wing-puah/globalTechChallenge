@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `National Blockchain Challenge`,
     description: `Encouraging academics community to design and develop business solutions using blockchain platform`,
+    coverImg: `https://res.cloudinary.com/gtcmain/image/upload/c_scale,h_826/v1556702270/brand_assets/poster-03.jpg`,
     author: `Global Technology Challenge`,
     imgCDN: `https://res.cloudinary.com/gtcmain`
   },
@@ -39,6 +40,12 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-134286032-1"
+      }
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "1341548739318950"
       }
     }
   ]

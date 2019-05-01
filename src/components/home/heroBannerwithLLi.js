@@ -32,11 +32,20 @@ const HeaderBanner = styled.header`
 const HeroBanner = () => (
   <HeaderBanner className="text-center container__cstm text-white my-5">
     <div className="row justify-content-around align-items-center mb-5 hero-img__container mx-auto">
-      <img
-        src={NbcLogo}
-        alt="National Blockchain Challenge"
-        className="headerLogo img-fluid"
-      />
+      <div className="col-9">
+        <img
+          src="https://res.cloudinary.com/gtcmain/image/upload/v1555861826/partners/SSG-LLI_Logo_white-outline.png"
+          alt="lifelong learning institute"
+          className="img-fluid"
+        />
+      </div>
+      <div className="col-3">
+        <img
+          src={NbcLogo}
+          alt="National Blockchain Challenge"
+          className="headerLogo img-fluid"
+        />
+      </div>
     </div>
 
     <h1 className="text-white text-uppercase">

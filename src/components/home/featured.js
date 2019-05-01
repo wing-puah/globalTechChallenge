@@ -79,6 +79,16 @@ const data = [
       "<p>Mriganka is the CEO of Merkle Science. He has over 5+ years of experience across investment banking and technology companies. And startup experience across 3 continents.</p>"
   },
   {
+    name: "Sam Gibb",
+    designation: "Partner",
+    organisation: "Endeavour Ventures",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Sam-Gibb.jpg",
+    description:
+      "<p>Sam has a background in hedge funds, private equity and finance. He brings professional financial skills as well as half a decade’s experience as an angel investor in Asia. At Endeavour Ventures Sam focuses on opportunities in FinTech, Big Data/AI, E-Sports, and the crypto economy amongst other sectors. As a CFA charter holder and an active mentor at a number of local incubators including Antler, SMU, Ngee Ann Polytechnic, and StartupX amongst others, he's well versed in the local start-up eco-system.</p>"
+  },
+
+  {
     name: "Alvin Chua",
     designation: "President",
     organisation: "Institute of Blockchain Singapore (IBS)",
@@ -95,6 +105,15 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1555858347/speakers/gustavo.jpg",
     description:
       "<p>Gustavo is the co-founder of The Hungry Lab and founder of EAT launchpad and a podcast host. He is a private banker with 12 years in wealth management and currently seats on the advisory board of various companies. He speaks 5 languages and has a MBA and degress in Computer Science and Mathematics. He has worked with notable brands like HSBC, UOB and Citibank.</p>"
+  },
+  {
+    name: "Jiren Yeo",
+    designation: "Director of Marketing",
+    organisation: "Institute of Blockchain Singapore (IBS)",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1555162693/team/jiren.jpg",
+    description:
+      "<p>Jiren started his professional career in blockchain as a business developer for an esports dapp. In November 2018, he conducted a blockchain basics workshop for undergraduates and professionals in Dubai. Currently, he heads the marketing initiatives and a member of the curriculum committee developing a certification programme at the Institute of Blockchain®. A tech enthusiast with 8 years of cross-functional experiences across other tech verticals including enterprise software, internet voice, eCommerce and games.</p>"
   },
   {
     name: "Kenneth Hu",
@@ -119,7 +138,7 @@ const data = [
     designation: "CTO",
     organisation: "Merkle Science",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Nirmal.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1556711592/speakers/Nirmal.jpg",
     description:
       "<p>Nirmal is an experienced data scientist with a demonstrated history of working in the internet industry with Paypal and Instamojo. Skilled at Statistics, Python, SQL, AWS. Strong finance professional with a Bachelor of Technology (B.Tech.) from Indian Institute of Technology, Madras.</p>"
   },
