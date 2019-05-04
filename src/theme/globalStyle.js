@@ -54,6 +54,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.8rem;
     line-height: 1.5;
     overflow-x: hidden;
+    background-image: url('/img/home-bg.jpeg');
   }
 
   h1, h2, h3, h4, h5, h6 {

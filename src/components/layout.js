@@ -7,10 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "popper.js";
 
 import { themeLight, GlobalStyle, media } from "../theme/globalStyle";
-import homeBg from "../images/home-bg.mp4";
-import homeBgWeb from "../images/home-bg.webm";
 
-import Mailchimp from "./signUpForm";
 import Navbar from "./navbar";
 import { ContactFooter, Footer } from "./footer";
 
@@ -55,14 +52,6 @@ const Layout = ({ children }) => {
             <GlobalStyle />
             <Navbar />
             <div className="body">
-              {Boolean(isWebLoaded) && (
-                <BgVideo>
-                  <video loop autoPlay muted>
-                    <source src={homeBg} type="video/mp4" />
-                    <source src={homeBgWeb} type="video/webm" />
-                  </video>
-                </BgVideo>
-              )}
               <div>
                 {children}
                 <div className="container">
