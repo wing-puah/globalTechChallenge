@@ -9,6 +9,12 @@ const blockchainPartners = [
 
 const strategicPartners = [
   {
+    name: "Aetler",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557076652/partners/aetler-logo.png",
+    url: "http://www.aetler.com/"
+  },
+  {
     name: "Blockchain & Dapps",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/blockchain-dapp.jpg",
@@ -19,6 +25,18 @@ const strategicPartners = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/dadc.png",
     url: "https://dappsdev.org/"
+  },
+  {
+    name: "EAT launchpad",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
+    url: "https://www.eatlaunchpad.com/"
+  },
+  {
+    name: "Endeavour Ventures",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/Endeavour_logo-01.png",
+    url: "https://www.endeavour.ventures/"
   },
   {
     name: "Ikiguide",
@@ -37,12 +55,6 @@ const strategicPartners = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/geekwing.png",
     url: "https://www.thegeekwing.com"
-  },
-  {
-    name: "The Hungry Lab",
-    img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/hungrylab.jpg",
-    url: "https://www.thehungrylab.com/"
   },
   {
     name: "Singapore Bitcoin club",

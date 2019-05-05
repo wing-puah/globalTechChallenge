@@ -32,7 +32,7 @@ const BoxShadow = styled.div`
 `;
 
 const Partner = props => (
-  <Logo className="col-6 col-sm-4">
+  <Logo className="col-6 col-sm-3">
     <a href={props.url} target="_blank" rel="noopener noreferrer">
       <BoxShadow className="border border__container row justify-content-center mx-1 mx-sm- 3 my-4 p-2 p-sm-4">
         <img src={props.img} alt={props.name} />
@@ -47,20 +47,18 @@ const Partners = props => (
       <h2>Our partners</h2>
       <div className="row mb-5" />
       <p className="text-body text-center mb-0 pb-0">
-        Our blockchain platform partners
+        Our blockchain platform and enterprise partners
       </p>
       <div className="row mb-5 justify-content-center">
         {blockchainPartners.map((el, idx) => (
           <Partner {...el} key={idx} />
         ))}
-      </div>
-      <p className="text-body text-center mb-0 pb-0">Our enterprise partners</p>
-      <div className="row mb-5 justify-content-center">
         {enterprisePartners.map((el, idx) => (
           <Partner {...el} key={idx} />
         ))}
       </div>
-      <p className="text-body text-center mb-0 pb-0">Our strategic partners</p>
+
+      <p className="text-body text-center mb-0 pb-0">Our community partners</p>
       <div className="row">
         {strategicPartners.map((el, idx) => (
           <Partner {...el} key={idx} />

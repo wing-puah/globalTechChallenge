@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import { GradientButton } from "../../theme/button";
-import { media } from "../../theme/globalStyle";
+import { GradientButton } from "../theme/button";
+import { media } from "../theme/globalStyle";
 
-import NbcLogo from "../../images/GTC-brand/NBC_no-font.png";
+import NbcLogo from "../images/GTC-brand/NBC_no-font.png";
 
 const HeaderBanner = styled.header`
   h1 {

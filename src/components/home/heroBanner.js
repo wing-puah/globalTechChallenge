@@ -29,8 +29,27 @@ const HeaderBanner = styled.header`
   }
 `;
 
+// <div className="row justify-content-around align-items-center mb-5 hero-img__container mx-auto">
+//   <div className="col-9">
+//     <img
+//       src="https://res.cloudinary.com/gtcmain/image/upload/v1555861310/partners/SSG-LLI_Logo_H_RGB.png"
+//       alt="lifelong learning institute"
+//       className="img-fluid"
+//       />
+//   </div>
+//   <div className="col-3">
+//     <img
+//       src={NbcLogo}
+//       alt="National Blockchain Challenge"
+//       className="headerLogo img-fluid"
+//       />
+//   </div>
+// </div>
 const HeroBanner = () => (
   <HeaderBanner className="text-center container__cstm text-white my-5">
+    <h1 className="text-white text-uppercase">
+      National Blockchain Challenge'19
+    </h1>
     <div className="row justify-content-around align-items-center mb-5 hero-img__container mx-auto">
       <img
         src={NbcLogo}
@@ -38,10 +57,6 @@ const HeroBanner = () => (
         className="headerLogo img-fluid"
       />
     </div>
-
-    <h1 className="text-white text-uppercase">
-      National Blockchain Challenge'19
-    </h1>
     <h2 className="text-white">Designing the future of work</h2>
     <div className="row justify-content-center">
       <div className="col-12 col-md-6 row">

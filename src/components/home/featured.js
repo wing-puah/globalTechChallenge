@@ -90,7 +90,15 @@ const data = [
     description:
       "<p>Sam has a background in hedge funds, private equity and finance. He brings professional financial skills as well as half a decade’s experience as an angel investor in Asia. At Endeavour Ventures Sam focuses on opportunities in FinTech, Big Data/AI, E-Sports, and the crypto economy amongst other sectors. As a CFA charter holder and an active mentor at a number of local incubators including Antler, SMU, Ngee Ann Polytechnic, and StartupX amongst others, he's well versed in the local start-up eco-system.</p>"
   },
-
+  {
+    name: "Adriel Ho",
+    designation: "Managing Partner",
+    organisation: "Aetler",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557077094/speakers/Adriel_Ho.jpg",
+    description:
+      "<p>Adriel is a tech entrepreneur who stands at the forefront of emerging technologies such as big data, machine learning (AI), and blockchain. He has spent the last 6 years building companies that solves impactful problems and is currently focusing on solving problems in the food system with technology. He sits as a blockchain ISO technical committee, is a blockchain instructor, as well as the managing partner at Aetler, an enterprise blockchain consultancy.</p>"
+  },
   {
     name: "Alvin Chua",
     designation: "President",
@@ -143,7 +151,7 @@ const data = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1556713681/speakers/Nirmal.jpg",
     description:
-      "<p>Nirmal is an experienced data scientist with a demonstrated history of working in the internet industry with Paypal and Instamojo. Skilled at Statistics, Python, SQL, AWS. Strong finance professional with a Bachelor of Technology (B.Tech.) from Indian Institute of Technology, Madras.</p>"
+      "<p>Nirmal brings over 6 years of experience in technology and fraud sciences from his times at Paypal and Instamojo. Presently, he leads technology and data science at Merkle Science and is a contributor to the open source project blockchain-etl.</p>"
   },
   {
     name: "Soh Wan Wei",
