@@ -16,34 +16,29 @@ const ReactTabsRow = styled.div`
 const DayOneWs = [
   {
     title: "Introduction to blockchain and design thinking",
-    paragraph:
-      "<li>Become familiar with the high overview of the blockchain system. Design thinking will be integrated to this course such that participants could understand a systematic way to approach problem-solving.</li><br/><li><strong>Takeaway:</strong> You will be able to understand the basic terminology used in blockchain and articulate the advantages of using blockchain as a tool.</li><p class='pt-5 pb-0 mb-0 text-right'><em>Institute of Blockchain Singapore</em></p>"
+    paragraph: `<li>Become familiar with the high overview of the blockchain system. Design thinking will be integrated to this course such that participants could understand a systematic way to approach problem-solving.</li><br/><li><strong>Takeaway:</strong> You will be able to understand the basic terminology used in blockchain and articulate the advantages of using blockchain as a tool.<li><a href="https://www.eventbrite.sg/e/introduction-to-design-thinking-tickets-61332669666" target="_blank">Register for design thinking</a></li><li><a href="https://www.eventbrite.sg/e/introduction-to-blockchain-tickets-61332522225?aff=ebapi" target="_blank">Register for introduction to blockchain</a></li><p class='pt-5 pb-0 mb-0 text-right'><em>Aetler & Institute of Blockchain Singapore</em></p>`
   }
 ];
 
 const DayTwoWs = [
   {
-    title: "Fundamentals of Innovation and Enterprise",
-    paragraph:
-      "<li>Learn the common errors and obstacles that will impede innovation. You will also discover the innovation process and metrics to measure performance and cost of implementations.</li><br/><li><strong>Takeaway:</strong>  You will be able to explain the theoretical concept and factors that drive and influence innovation. You will also be able to outline practical framework to achieve innovations.</li>"
+    title: "Fundamentals of innovation and enterprise",
+    paragraph: `<li>Learn the common errors and obstacles that will impede innovation. You will also discover the innovation process and metrics to measure performance and cost of implementations.</li><br/><li><strong>Takeaway:</strong>  You will be able to explain the theoretical concept and factors that drive and influence innovation. You will also be able to outline practical framework to achieve innovations.</li><a href="https://www.eventbrite.sg/e/fundamentals-of-innovation-and-enterprise-workshop-tickets-61332729846?aff=ebapi" target="_blank">Register for fundamentals of innovation and enterprise</a><p class='pt-5 pb-0 mb-0 text-right'><em>Eat Launchpad</em></p>`
   },
   {
     title: "Effective presentation and personal branding",
-    paragraph:
-      "<li>Learn the psychology and anatomy of delivering an effective presentation. This workshop will also impart the knowledge of tapping across social media to have a strategic professional positioning.</li><br/><li><strong>Takeaway:</strong> You will be able to craft an elevator pitch, structure an impactful presentation and improve their personal branding.</li><p class='pt-5 pb-0 mb-0 text-right'><em>Ikiguide</em></p>"
+    paragraph: `<li>Learn the psychology and anatomy of delivering an effective presentation. This workshop will also impart the knowledge of tapping across social media to have a strategic professional positioning.</li><br/><li><strong>Takeaway:</strong> You will be able to craft an elevator pitch, structure an impactful presentation and improve their personal branding.</li><a href="https://www.eventbrite.sg/e/the-brand-called-you-personal-branding-and-effective-presentation-workshop-tickets-61333166151" target="_blank">Register for effective presentation and personal branding</a><p class='pt-5 pb-0 mb-0 text-right'><em>Ikiguide</em></p>`
   },
   {
     title: "User experience (UX) design process",
-    paragraph:
-      "<li>Learn about the importance of user-centric design. And the methodology to identify the problem statement of the users.</li><br/><li><strong>Takeaway:</strong> You will be able to create user personas, create user requirements and define the various stages of user experience design processes.</li>"
+    paragraph: `<li>Learn about the importance of user-centric design. And the methodology to identify the problem statement of the users.</li><br/><li><strong>Takeaway:</strong> You will be able to create user personas, create user requirements and define the various stages of user experience design processes.</li>`
   }
 ];
 
 const DayThreeWs = [
   {
     title: "Agile methodology for rapid prototyping",
-    paragraph:
-      "<li>Learn about the fundamentals of agile methodology. You will also engage in hands-on practice for applying the methodology.</li> <br/><li><strong>Takeaway:</strong> At the end of the session, participants will be able to understand how to plan an execute sprints. They will also be able to articulate the pros and cons of using agile method over waterfall methodology.</li>"
+    paragraph: `<li>Learn about the fundamentals of agile methodology. You will also engage in hands-on practice for applying the methodology.</li> <br/><li><strong>Takeaway:</strong> At the end of the session, participants will be able to understand how to plan an execute sprints. They will also be able to articulate the pros and cons of using agile method over waterfall methodology.</li><a href="https://www.eventbrite.sg/e/introduction-to-agile-workshop-tickets-61733680099" target="_blank">Register for introduction to agile methodology for rapid prototyping</a><p class='pt-5 pb-0 mb-0 text-right'><em>Dtal Technologies Pte Ltd</em></p>`
   }
 ];
 
@@ -59,14 +54,6 @@ const JudgingDay = [
     title: "Finals",
     paragraph:
       "Receive valuable feedback on your prototype from our esteemed judges. Come and listen to the bright ideas in our final round of judging."
-  }
-];
-
-const CareerFair = [
-  {
-    title: "Various hiring companies and career coaches on site",
-    paragraph:
-      "Discover the companies, institutions and education partners involve in the blockchain and cybersecurity sector."
   }
 ];
 
@@ -108,7 +95,15 @@ const Overview = props => (
           <h3 className="text-body">1 June 2019</h3>
           <Accordion data={DayTwoWs} />
           <h3 className="text-body">8 June 2019</h3>
-          <Accordion data={DayThreeWs} />
+          <Accordion data={DayThreeWs} />{" "}
+          <div className="d-flex justify-content-center">
+            <a
+              href="https://www.eventbrite.sg/o/global-tech-challenge-20143618151"
+              target="_blank"
+            >
+              <GradientButton>View all our workshops</GradientButton>
+            </a>
+          </div>
         </TabPanel>
 
         <TabPanel>
@@ -126,8 +121,7 @@ const Overview = props => (
 
           <h4 className="text-body">Judging day</h4>
           <Accordion data={JudgingDay} />
-          <h4 className="text-body">Career fair</h4>
-          <Accordion data={CareerFair} />
+
           <h4 className="text-body">Panels discussion</h4>
           <Accordion data={PanelDiscussion} />
           <div className="d-flex justify-content-center">

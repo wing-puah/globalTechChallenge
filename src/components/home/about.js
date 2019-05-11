@@ -6,8 +6,7 @@ const highlights = [
   { icon: "zmdi-star", content: "3 X $1000 cash prize" },
   { icon: "zmdi-assignment-check", content: "5+ Master Classes" },
   { icon: "zmdi-mic-setting", content: "10+ Trainers & Speakers" },
-  { icon: "zmdi-accounts", content: "15+ Mentors & Judges" },
-  { icon: "zmdi-accounts", content: "10+ Career booths" }
+  { icon: "zmdi-accounts", content: "15+ Mentors & Judges" }
 ];
 
 const About = props => (
@@ -18,8 +17,7 @@ const About = props => (
         Blockchain is an emerging technology that is increasingly incorporated
         into enterprises due to its immutable, reliable and decentralised
         nature. Through the National Blockchain Challenge 2019, we are looking
-        for ambitious student developers who want to design the future of work
-        with us.
+        for ambitious students who want to design the future of work with us.
       </p>
 
       <div className="row align-items-center container__cstm--y">
@@ -39,7 +37,6 @@ const About = props => (
             <ul>
               <li>Hackathon judging day</li>
               <li>Panel discussion</li>
-              <li>Career fair</li>
             </ul>
           </div>
 

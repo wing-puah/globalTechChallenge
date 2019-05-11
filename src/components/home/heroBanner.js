@@ -50,14 +50,28 @@ const HeroBanner = () => (
     <h1 className="text-white text-uppercase">
       National Blockchain Challenge'19
     </h1>
-    <div className="row justify-content-around align-items-center mb-5 hero-img__container mx-auto">
-      <img
-        src={NbcLogo}
-        alt="National Blockchain Challenge"
-        className="headerLogo img-fluid"
-      />
+    <div
+      className="row justify-content-around align-items-center my-5 hero-img__container mx-auto"
+      style={{ filter: "brightness(0) invert(1)" }}
+    >
+      <div className="col-3">
+        <img
+          src={NbcLogo}
+          alt="National Blockchain Challenge"
+          className="headerLogo img-fluid"
+          style={{ filter: "brightness(100%)" }}
+        />
+      </div>
+      <div className="col-9 d-flex flex-column align-items-start">
+        Supported by
+        <img
+          src="https://res.cloudinary.com/gtcmain/image/upload/v1555861310/partners/SSG-LLI_Logo_H_RGB.png"
+          alt="lifelong learning institute"
+          className="img-fluid"
+        />
+      </div>
     </div>
-    <h2 className="text-white">Designing the future of work</h2>
+    <h2 className="text-white pt-5">Designing the future of work</h2>
     <div className="row justify-content-center">
       <div className="col-12 col-md-6 row">
         <div className="col-12 col-sm-6">

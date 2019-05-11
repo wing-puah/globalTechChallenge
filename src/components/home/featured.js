@@ -77,7 +77,7 @@ const data = [
     designation: "CEO",
     organisation: "Merkle Science",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Mriganka.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557597017/speakers/Mriganka.jpg",
     description:
       "<p>Mriganka is the CEO of Merkle Science. He has over 5+ years of experience across investment banking and technology companies. And startup experience across 3 continents.</p>"
   },
@@ -108,10 +108,11 @@ const data = [
     description:
       "<p>Alvin is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS's blockchain community of more than 600 individuals across the globe.</p>"
   },
+
   {
     name: "Gustavor Liu",
     designation: "Co-founder",
-    organisation: "The Hungry Lab",
+    organisation: "Eat Launchpad",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1555858347/speakers/gustavo.jpg",
     description:
@@ -128,12 +129,21 @@ const data = [
   },
   {
     name: "Kenneth Hu",
-    designation: "Chief Technology Officer",
+    designation: "CTO",
     organisation: "Bytepay Inc",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629714/speakers/Kenneth_Hu.jpg",
     description:
       "<p>Kenneth has helmed technological teams in both Taiwan and Singapore. With his extensive technological knowledge working in big teams and corporations, such as Fuji Xerox and ST Electronics, Kenenth has garnered a wealth of knowledge and respect in the industry. Currently he is focus on promoting the use of blockchain technology as the founder and organiser of Blockchain & Dapps Technology, Singapore IOTA and Next Generation Blockchain.</p>"
+  },
+  {
+    name: "Khoo Chaik Wah",
+    designation: "Co-founder",
+    organisation: "DTAL Technologies",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557599539/speakers/chaik_wah.jpg",
+    description:
+      "<p>Chaik Wah has trained Product Owners and Team members on Agile and Lean practices and principles in both MNC and start-ups. In the last 5 years, he becomes particularly interested in Lean and Agile practices. He oversees the Scrum project management for the software delivery of the various project teams. It has helped the company to embrace iterative and incremental practices, helping teams to deliver working software more frequently.</p>"
   },
   {
     name: "Laurence Zhang",
@@ -161,6 +171,15 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629719/speakers/Wan-Wei.jpg",
     description:
       "<p>Wan Wei is the founder of <a href='http://www.ikiguide.com' target='_blank'>IKIGUIDE: Singapore's First Mainstream Blockchain and Cryptocurrency Portal</a>. She is an open-source advocate.</p><p>She is also a media specialist who has interviewed more than 100 C-Level Executives,ex-presidents, ambassadors and entrepreneurs globally. In 2017, Wan Wei was the first and only Singaporean selected by the Prime Minister's Office to helm Finland's 100th years of independence project.</p>"
+  },
+  {
+    name: "Yacine Terai",
+    designation: "CEO, Angel Investor & Startup Advisor",
+    organisation: "StartupToken",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557597062/speakers/Yacine.jpg",
+    description:
+      "<p>Yacine is a savvy entrepreneur with 15+ years in the global technology startup space. Enriched by his sharp sense of business creation, he developed a capacity to discover cutting-edge projects. He was former VC @Coinsilium Group, the first ICAP ISDX Blockchain investment company to be publicly listed and founded StartupToken in 2017, a Blockchain Accelerator. StartupToken offers a full-service package including investment, legal and technical support, token economics and token modelling, mentorship, events organisation and growth-hacking in order for its clients to reach the necessary level of community engagement.</p>"
   }
 ];
 

@@ -27,6 +27,12 @@ const strategicPartners = [
     url: "https://dappsdev.org/"
   },
   {
+    name: "Dtal Technologies",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557599281/partners/dtal.jpg",
+    url: "http://www.dtaltechnologies.com/"
+  },
+  {
     name: "EAT launchpad",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
@@ -61,6 +67,12 @@ const strategicPartners = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629673/partners/SBC.png",
     url: "http://singaporebitcoinclub.sg/"
+  },
+  {
+    name: "StartupToken",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557597661/partners/StartupToken.png",
+    url: "https://www.startuptoken.com/"
   }
 ];
 
