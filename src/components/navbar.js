@@ -73,9 +73,7 @@ const NavbarResponsive = props => {
         bg="light "
         expand="lg"
         className="px-2 pb-0 px-sm-5 py-sm-3 border-bottom fixed-top align-items-sm-end"
-        expanded={
-          window.matchMedia("screen and (max-width: 768px)") && isExpanded
-        }
+        expanded={isExpanded}
       >
         <Navbar.Brand href="#home">
           <NavLogo alt="Global Technology Challenge" className="my-2 my-sm-0" />

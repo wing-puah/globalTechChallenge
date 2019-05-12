@@ -84,7 +84,7 @@ const Overview = props => (
         <TabList className="col-12 col-lg-10 row justify-content-between">
           <Tab>Master classes</Tab>
           <Tab>Hackathon</Tab>
-          <Tab>Finals + Panel + Career fair</Tab>
+          <Tab>Finals + Panel</Tab>
         </TabList>
       </div>
 
@@ -95,7 +95,7 @@ const Overview = props => (
           <h3 className="text-body">1 June 2019</h3>
           <Accordion data={DayTwoWs} />
           <h3 className="text-body">8 June 2019</h3>
-          <Accordion data={DayThreeWs} />{" "}
+          <Accordion data={DayThreeWs} />
           <div className="d-flex justify-content-center">
             <a
               href="https://www.eventbrite.sg/o/global-tech-challenge-20143618151"
