@@ -54,7 +54,7 @@ const HeroBanner = () => (
       className="row justify-content-around align-items-center my-5 hero-img__container mx-auto"
       style={{ filter: "brightness(0) invert(1)" }}
     >
-      <div className="col-3">
+      <div className="col-12 col-sm-3">
         <img
           src={NbcLogo}
           alt="National Blockchain Challenge"
@@ -62,12 +62,12 @@ const HeroBanner = () => (
           style={{ filter: "brightness(100%)" }}
         />
       </div>
-      <div className="col-9 d-flex flex-column align-items-start">
+      <div className="mt-5 pt-4 mt-sm-0 col-12 col-sm-9 d-flex flex-column align-items-center align-items-sm-start">
         Supported by
         <img
           src="https://res.cloudinary.com/gtcmain/image/upload/v1555861310/partners/SSG-LLI_Logo_H_RGB.png"
           alt="lifelong learning institute"
-          className="img-fluid"
+          className="img-fluid pt-4 pt-sm-0"
         />
       </div>
     </div>

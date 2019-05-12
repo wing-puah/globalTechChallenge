@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState, Fragment } from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { Location } from "@reach/router";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { media } from "../theme/globalStyle";
 import mobileLogo from "../images/GTC-brand/GTC_without-font.png";
@@ -45,65 +48,63 @@ const pages = [
   { url: "/team", name: "Team" },
   // {url: '/news-and-updates', name: 'News & updates'},
   { url: "/#contact", name: "Contact" }
-  // { url: "/register", name: "Register" }
 ];
 
-const Navbar = props => {
+const NavbarResponsive = props => {
+  const [isExpanded, setIsExpanded] = useState(false);
   let currentPath;
 
   if (typeof window !== "undefined") {
-    // currentPath = `/${window.location.href.split("/").pop()}`;
     currentPath =
       window.location.hash !== ""
         ? window.location.hash
         : window.location.pathname;
-    console.log(window.location.hash);
-    console.log("cr", currentPath);
   }
+
+  const toggleExpansion = () => {
+    if (window.matchMedia("screen and (max-width: 768px)").matches) {
+      setIsExpanded(!isExpanded);
+    }
+  };
+
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white px-0 pb-0 px-sm-5 py-sm-3 border-bottom fixed-top">
-        <Link to="/" className="navbar-brand" activeClassName="active">
+      <Navbar
+        bg="light "
+        expand="lg"
+        className="px-2 pb-0 px-sm-5 py-sm-3 border-bottom fixed-top align-items-sm-end"
+        expanded={
+          window.matchMedia("screen and (max-width: 768px)") && isExpanded
+        }
+      >
+        <Navbar.Brand href="#home">
           <NavLogo alt="Global Technology Challenge" className="my-2 my-sm-0" />
-        </Link>
+        </Navbar.Brand>
 
-        <button
-          className="navbar-toggler mr-4"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
-
-        <NavList
-          className="collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
-          <ul className="navbar-nav ml-auto">
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={toggleExpansion}
+        />
+        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+          <Nav>
             {pages.map((el, i) => {
-              // const navCN =
-              //   currentPath === el.url ? "nav-link active" : "nav-link";
-              // console.log(currentPath);
               return (
                 <Link
                   to={el.url}
                   key={i}
                   className="nav-link"
                   activeClassName="active"
+                  onClick={toggleExpansion}
                 >
                   <li className="nav-item mb-0 px-3 py-3 py-sm-0">{el.name}</li>
                 </Link>
               );
             })}
-          </ul>
-        </NavList>
-      </nav>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </header>
   );
 };
 
-export default Navbar;
+export default NavbarResponsive;
