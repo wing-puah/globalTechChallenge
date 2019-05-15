@@ -17,7 +17,8 @@ const About = props => (
         Blockchain is an emerging technology that is increasingly incorporated
         into enterprises due to its immutable, reliable and decentralised
         nature. Through the National Blockchain Challenge 2019, we are looking
-        for ambitious students who want to design the future of work with us.
+        for blockchain and technology enthusiasts who want to design the future
+        of work with us.
       </p>
 
       <div className="row align-items-center container__cstm--y">
