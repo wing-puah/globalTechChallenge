@@ -108,7 +108,24 @@ const data = [
     description:
       "<p>Alvin is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS's blockchain community of more than 600 individuals across the globe.</p>"
   },
-
+  {
+    name: "Anna Wang",
+    designation: "Regional Manager China",
+    organisation: "Origin Protocol",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557933032/speakers/photo6262751681750083789.jpg",
+    description:
+      "<p>Anna is the Regional Manager for China at Origin Protocol. An experienced marketer, she has worked across various industries and executed global campaign programs for companies such as Billabong, HP, P&G and Exness.</p>"
+  },
+  {
+    name: "Clare Markham",
+    designation: "COO",
+    organisation: "Startup Token",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557934476/speakers/clare.jpg",
+    description:
+      "<p>Clare is the Co-Founder and COO of StartupToken Blockchain Accelerator with 15+ years cumulative international experience in Consulting for Innovative Strategy, Community Building and Operations. Leader of Women in Blockchain International Networks, Women4Blockchain Hackathon Business mentor, keynote speaker for InCredibles Accelerator in Warsaw, Poland and guest lecturer on Blockchain Technology at ESSEC Global MBA in Singapore. </p>"
+  },
   {
     name: "Gustavor Liu",
     designation: "Co-founder",

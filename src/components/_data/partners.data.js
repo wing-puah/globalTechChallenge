@@ -1,5 +1,17 @@
 const blockchainPartners = [
   {
+    name: "IOST",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557933399/partners/IOST.jpg",
+    url: "https://iost.io/"
+  },
+  {
+    name: "Kleros",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557933421/partners/kleros.png",
+    url: "https://kleros.io/"
+  },
+  {
     name: "Origin",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/Origin.jpg",
@@ -52,6 +64,13 @@ const strategicPartners = [
   },
   {
     name: "Institute Of Blockchain Singapore",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1555166365/partners/IBS.jpg",
+    url: "https://ibs.edu.sg/"
+  },
+
+  {
+    name: "Outside Voice",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1555166365/partners/IBS.jpg",
     url: "https://ibs.edu.sg/"
