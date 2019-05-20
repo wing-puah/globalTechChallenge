@@ -31,7 +31,7 @@ const DayTwoWs = [
   },
   {
     title: "User experience (UX) design process",
-    paragraph: `<li>Learn about the importance of user-centric design. And the methodology to identify the problem statement of the users.</li><br/><li><strong>Takeaway:</strong> You will be able to create user personas, create user requirements and define the various stages of user experience design processes.</li>`
+    paragraph: `<li>Learn about the importance of user-centric design. And the methodology to identify the problem statement of the users.</li><br/><li><strong>Takeaway:</strong> You will be able to create user personas, create user requirements and define the various stages of user experience design processes.</li><a href="https://www.eventbrite.sg/e/user-experience-ux-design-process-tickets-61879174276" target="_blank">Register for UX design process</a><p class='pt-5 pb-0 mb-0 text-right'><em>Outside Voice</em></p>`
   }
 ];
 
@@ -56,8 +56,7 @@ const Hackathon = [
 const OpenSpace = [
   {
     title: "Technology advancement sharing",
-    paragraph:
-      "Learn. Discover and Do. Find out what has been the latest trend and learn on our open public sharing day."
+    paragraph: `<li>Learn. Discover and Do. Find out what has been the latest trend on our open public sharing day. Immerse yourself in an afternoon of gathering of immersive and engaging talks by industry tech veterans.</li><li><a href="https://www.eventbrite.sg/e/community-sharing-all-about-emerging-technology-tickets-62137339455" target="_blank">Register for our community sharing</a></li>`
   }
 ];
 

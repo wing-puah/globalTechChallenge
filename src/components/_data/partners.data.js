@@ -72,8 +72,8 @@ const strategicPartners = [
   {
     name: "Outside Voice",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1555166365/partners/IBS.jpg",
-    url: "https://ibs.edu.sg/"
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558368730/partners/outside-voice.png",
+    url: "https://www.outsidevoice.io/"
   },
   {
     name: "The Geek Wing",

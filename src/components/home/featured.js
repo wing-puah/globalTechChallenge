@@ -172,6 +172,15 @@ const data = [
       "<p>Laurence is an accomplished software consultant with over 20 years of full-stack software development. Besides that he is also professionally certified for Blockchain for Business under the Linux Foundation, ACTA, and a Google Cloud & Microsoft Azure consultant. Besides actively contributing to Institute of Blockchain, he is also the ambassador of Kleros.</p>"
   },
   {
+    name: "Lawrence Lim",
+    designation: "Head of Business Development",
+    organisation: "IOST",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558368421/speakers/lawrence.jpg",
+    description:
+      "<p>Lawrence oversees international growth for IOST, a global top 50 blockchain protocol backed by Sequioa Capital, ZhenFund and multiple institutional investors. Prior to IOST, he was responsible for new business acquisition at TradeGecko with a successful track record of winning new clients across Asia Pacific, EMEA and the Americas. Prior to TradeGecko, Lawrence was with JP Morgan, BNP Paribas and KPMG across investment banking and asset management functions. Lawrence holds a Bachelor of Business (First Class Honours) from Nanyang Technological University.</p>"
+  },
+  {
     name: "Nirmal AK",
     designation: "CTO",
     organisation: "Merkle Science",
