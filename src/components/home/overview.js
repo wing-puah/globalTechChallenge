@@ -42,7 +42,7 @@ const DayThreeWs = [
   },
   {
     title: "Presents_ IOST: Coding workshop",
-    paragraph: `<li>Learn about the fundamentals of blockchain and IOST. You will be coding.</li> <br/><a href="https://www.eventbrite.sg/e/presents-iost-suss-tickets-61774097990?fbclid=IwAR210d7vF2X5xy-9TupbJkiOgtyuxk_PjaY8_WuN0Lc1zMluEWwlXfY6J44" target="_blank">Register for Presents_ IOST: Coding workshop</a><p class='pt-5 pb-0 mb-0 text-right'><em>IOST</em></p>`
+    paragraph: `<li>Meet community partners and IOST as we discuss the makeup of a public blockchain and IOST proposition to the industry. In the PM session, we dwell into the technical aspect of IOST, followed by a coding workshop.</li> <br/><li><strong>Takeaway:</strong> Participants will be able to understand what is a public blockchain, the problem its solving, its current state maturity and a glimpse to building applications on it.</li><a href="https://www.eventbrite.sg/e/presents-iost-suss-tickets-61774097990?fbclid=IwAR210d7vF2X5xy-9TupbJkiOgtyuxk_PjaY8_WuN0Lc1zMluEWwlXfY6J44" target="_blank">Register for Presents_ IOST: Coding workshop</a><p class='pt-5 pb-0 mb-0 text-right'><em>IOST</em></p>`
   }
 ];
 

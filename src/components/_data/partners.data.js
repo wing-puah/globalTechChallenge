@@ -27,6 +27,12 @@ const strategicPartners = [
     url: "http://www.aetler.com/"
   },
   {
+    name: "Asia Blockchain Review",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558459816/partners/Asia-Blockchain-Review-logo.jpg",
+    url: "https://www.asiablockchainreview.com/"
+  },
+  {
     name: "Blockchain & Dapps",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/blockchain-dapp.jpg",
@@ -47,8 +53,14 @@ const strategicPartners = [
   {
     name: "EAT launchpad",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558460221/partners/edufied.png",
     url: "https://www.eatlaunchpad.com/"
+  },
+  {
+    name: "Edufied",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
+    url: "https://edufied.network/"
   },
   {
     name: "Endeavour Ventures",
