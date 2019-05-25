@@ -56,7 +56,7 @@ const Hackathon = [
 const OpenSpace = [
   {
     title: "Technology advancement sharing",
-    paragraph: `<li>Learn. Discover and Do. Find out what has been the latest trend on our open public sharing day. Immerse yourself in an afternoon of gathering of immersive and engaging talks by industry tech veterans.</li><li><a href="https://www.eventbrite.sg/e/community-sharing-all-about-emerging-technology-tickets-62137339455" target="_blank">Register for our community sharing</a></li>`
+    paragraph: `<li>Learn. Discover and Do. Find out what has been the latest trend on our open public sharing day. Immerse yourself in an afternoon of gathering of immersive and engaging talks by industry tech veterans.</li><br/><div><u>Topics that we will be covering</u></div><li>· <strong>Game theory and blockchain</strong></li><br/><li><a href="https://www.eventbrite.sg/e/community-sharing-all-about-emerging-technology-tickets-62137339455" target="_blank">Register for our community sharing</a></li>`
   }
 ];
 

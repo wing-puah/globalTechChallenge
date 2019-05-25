@@ -73,6 +73,24 @@ const data = [
       '<p>Dr. Rex YEAP is a Vice Chairman of Business Angel Network (BANSEA) and he is also the co-founder of an angel investment fund (BANSEA Fund One) and serves as the Chair in its Investment Committee Board for this fund. Dr. Yeap is an Advisor in the Institute of Blockchain and also the head of Education in the Singapore Cryptocurrency and Blockchain Industry Association (ACCESS). Dr. Yeap has three decades of experience across the Information Technology value chain. He is the co-inventor of the patented IP Blockchain technology and has over <a href="http://ye.sg" target="_blank">20 Information Technology related patents</a> and thousands of inventions over the past three decades.</p>'
   },
   {
+    name: "Clément Lesaege",
+    designation: "CTO",
+    organisation: "Kleros",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558755696/speakers/clement.jpg",
+    description:
+      "<p>Clément is an engineer graduated from UTC (France) and he holds a Master of Computer Science from Georgia Tech (USA), Clément is the CTO of KLEROSand as such, he is at the origin of the developed protocol infrastructure. Clément is one of the French specialists in smart contract security.</p><p>He works on the theoretical aspects (incentive mechanisms, attacks and defense mechanisms) and experimental (traditional metrics of machine learning applied to the human sciences) of crypto-economics (computer science, cryptography, game theory) at KLEROS.</p>"
+  },
+  {
+    name: "Lawrence Lim",
+    designation: "Head of Business Development",
+    organisation: "IOST",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558368421/speakers/lawrence.jpg",
+    description:
+      "<p>Lawrence oversees international growth for IOST, a global top 50 blockchain protocol backed by Sequioa Capital, ZhenFund and multiple institutional investors. Prior to IOST, he was responsible for new business acquisition at TradeGecko with a successful track record of winning new clients across Asia Pacific, EMEA and the Americas. Prior to TradeGecko, Lawrence was with JP Morgan, BNP Paribas and KPMG across investment banking and asset management functions. Lawrence holds a Bachelor of Business (First Class Honours) from Nanyang Technological University.</p>"
+  },
+  {
     name: "Mriganka Pattnaik",
     designation: "CEO",
     organisation: "Merkle Science",
@@ -126,6 +144,7 @@ const data = [
     description:
       "<p>Clare is the Co-Founder and COO of StartupToken Blockchain Accelerator with 15+ years cumulative international experience in Consulting for Innovative Strategy, Community Building and Operations. Leader of Women in Blockchain International Networks, Women4Blockchain Hackathon Business mentor, keynote speaker for InCredibles Accelerator in Warsaw, Poland and guest lecturer on Blockchain Technology at ESSEC Global MBA in Singapore. </p>"
   },
+
   {
     name: "Gustavor Liu",
     designation: "Co-founder",
@@ -171,14 +190,15 @@ const data = [
     description:
       "<p>Laurence is an accomplished software consultant with over 20 years of full-stack software development. Besides that he is also professionally certified for Blockchain for Business under the Linux Foundation, ACTA, and a Google Cloud & Microsoft Azure consultant. Besides actively contributing to Institute of Blockchain, he is also the ambassador of Kleros.</p>"
   },
+
   {
-    name: "Lawrence Lim",
-    designation: "Head of Business Development",
-    organisation: "IOST",
+    name: "Lisa Tan",
+    designation: "Token Economics Research",
+    organisation: "Economics Design",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1558368421/speakers/lawrence.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558752716/speakers/lisa.jpg",
     description:
-      "<p>Lawrence oversees international growth for IOST, a global top 50 blockchain protocol backed by Sequioa Capital, ZhenFund and multiple institutional investors. Prior to IOST, he was responsible for new business acquisition at TradeGecko with a successful track record of winning new clients across Asia Pacific, EMEA and the Americas. Prior to TradeGecko, Lawrence was with JP Morgan, BNP Paribas and KPMG across investment banking and asset management functions. Lawrence holds a Bachelor of Business (First Class Honours) from Nanyang Technological University.</p>"
+      "<p> Lisa is a deconstructor of economics, cryptoassets and cryptosystems.  She comes from an economics background and sees huge potential to bridge the gap between traditional economics and the blockchain world.</p><p>Lisa now pours her passion for economics into designing, teaching and showcasing the true capabilities of solid underlying economic and incentivisation models to build scalable and sustainable token economy and networks</p>"
   },
   {
     name: "Nirmal AK",
@@ -188,6 +208,15 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1556713681/speakers/Nirmal.jpg",
     description:
       "<p>Nirmal brings over 6 years of experience in technology and fraud sciences from his times at Paypal and Instamojo. Presently, he leads technology and data science at Merkle Science and is a contributor to the open source project blockchain-etl.</p>"
+  },
+  {
+    name: "Ryan Soh",
+    designation: "CEO & Founder",
+    organisation: "Edufied",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558752939/speakers/Ryan.jpg",
+    description:
+      "<p>Ryan is a Business Strategist in the Education Management industry. Being an experienced entrepreneur for more than 16 years, he spent most of his journey focusing on Education related ventures. With his interest in the fast moving technology sector, Ryan rolled out a digital transformation framework for MoneyTree, a Financial Literacy Education Institution for Kids Youths aged 6 to 17.<p>Ryan is the founder of Edufied, a blockchain based Credential Storage Verification System. Within a span of 10 months, he has brought Edufied from an idea to main net launch with a ready pool of 40 000 committed users.</p>"
   },
   {
     name: "Soh Wan Wei",

@@ -57,6 +57,12 @@ const strategicPartners = [
     url: "https://www.eatlaunchpad.com/"
   },
   {
+    name: "Economics Design",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1558754115/partners/economics_design.jpg",
+    url: "https://www.economicsdesign.com/"
+  },
+  {
     name: "Edufied",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
