@@ -33,6 +33,12 @@ const strategicPartners = [
     url: "https://www.asiablockchainreview.com/"
   },
   {
+    name: "BlockConnectors",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559259289/partners/BlockConnectors_Logo_CMYK-Dark.png",
+    url: "https://www.blockconnectors.io/"
+  },
+  {
     name: "Blockchain & Dapps",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/blockchain-dapp.jpg",
@@ -98,6 +104,12 @@ const strategicPartners = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/geekwing.png",
     url: "https://www.thegeekwing.com"
+  },
+  {
+    name: "Torus",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559259289/partners/torus-logo-rectangle-blue.svg",
+    url: "https://tor.us/"
   },
   {
     name: "Singapore Bitcoin club",

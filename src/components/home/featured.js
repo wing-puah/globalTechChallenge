@@ -190,6 +190,15 @@ const data = [
     description:
       "<p>Laurence is an accomplished software consultant with over 20 years of full-stack software development. Besides that he is also professionally certified for Blockchain for Business under the Linux Foundation, ACTA, and a Google Cloud & Microsoft Azure consultant. Besides actively contributing to Institute of Blockchain, he is also the ambassador of Kleros.</p>"
   },
+  {
+    name: "Leonard Tan",
+    designation: "Co-founder",
+    organisation: "Torus",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559259037/speakers/Leonard.jpg",
+    description:
+      "<p>Previously at Visa and ConsenSys, Leonard is a software engineer with several years of experience in blockchain technology and research. He has built a secure mobile cryptowallet for CoinHako as well as full-stack Ethereum dapps, and has been a technical advisor for multiple ICOs. A member of Ethereum Foundation working on ENS, he has been invited to present at blockchain events across the world in the US (ETHDenver), Singapore, UAE (ICANN60), as well as Ghana (Ghana Blockchain Conference). He is currently the co-founder of Torus, a decentralised credibility solution for the internet.</p>"
+  },
 
   {
     name: "Lisa Tan",
@@ -235,6 +244,15 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1557597062/speakers/Yacine.jpg",
     description:
       "<p>Yacine is a savvy entrepreneur with 15+ years in the global technology startup space. Enriched by his sharp sense of business creation, he developed a capacity to discover cutting-edge projects. He was former VC @Coinsilium Group, the first ICAP ISDX Blockchain investment company to be publicly listed and founded StartupToken in 2017, a Blockchain Accelerator. StartupToken offers a full-service package including investment, legal and technical support, token economics and token modelling, mentorship, events organisation and growth-hacking in order for its clients to reach the necessary level of community engagement.</p>"
+  },
+  {
+    name: "Zhen Yu",
+    designation: "Cofounder",
+    organisation: "Torus",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559259037/speakers/Zhen_Yu.jpg",
+    description:
+      "<p>Prior to Torus, Zhen was a researcher with a focus on scalability and state channels. He led Peace Bridge funded by both the Ethereum Foundation and ETC Cooporative and has been a technical advisor for multiple ICOs. He also has a background in software engineering at Visa and Accenture.</p>"
   }
 ];
 
