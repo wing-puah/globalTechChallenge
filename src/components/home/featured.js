@@ -140,9 +140,18 @@ const data = [
     designation: "COO",
     organisation: "Startup Token",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1557934476/speakers/clare.jpg",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559749022/speakers/clare.jpg",
     description:
       "<p>Clare is the Co-Founder and COO of StartupToken Blockchain Accelerator with 15+ years cumulative international experience in Consulting for Innovative Strategy, Community Building and Operations. Leader of Women in Blockchain International Networks, Women4Blockchain Hackathon Business mentor, keynote speaker for InCredibles Accelerator in Warsaw, Poland and guest lecturer on Blockchain Technology at ESSEC Global MBA in Singapore. </p>"
+  },
+  {
+    name: "Daniel Shen",
+    designation: "Founder",
+    organisation: "Soqqle",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559748934/speakers/daniel.jpg",
+    description:
+      "<p>Daniel Shen has more than 10 years of experience in investment banking & Fintech. Well-versed in process re-engineering, innovation, human capital, he dived into Blockchain POC in J.P. Morgan. With product management expertise, he is the founder of Soqqle – a gamified learning platform to bring serious games into the classroom. He is working with local mainstream schools in Singapore to gamify curriculum and join a wider eco-system on the Blockchain</p>"
   },
 
   {
@@ -217,6 +226,15 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1556713681/speakers/Nirmal.jpg",
     description:
       "<p>Nirmal brings over 6 years of experience in technology and fraud sciences from his times at Paypal and Instamojo. Presently, he leads technology and data science at Merkle Science and is a contributor to the open source project blockchain-etl.</p>"
+  },
+  {
+    name: "Chan Rong Yao",
+    // designation: "CTO",
+    organisation: "Arete",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559749063/speakers/Rong-yao.jpg",
+    description:
+      "<p>Rong Yao is Managing Partner of Arete Advisory, A firm focused on excellence and scaling your business. He has a decade of experience in helping firms.</p>"
   },
   {
     name: "Ryan Soh",

@@ -27,6 +27,12 @@ const strategicPartners = [
     url: "http://www.aetler.com/"
   },
   {
+    name: "Arete",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559748147/partners/arete-logo-blue.png",
+    url: "http://www.globalTechChallenge.com"
+  },
+  {
     name: "Asia Blockchain Review",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1558459816/partners/Asia-Blockchain-Review-logo.jpg",
@@ -92,12 +98,17 @@ const strategicPartners = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1555166365/partners/IBS.jpg",
     url: "https://ibs.edu.sg/"
   },
-
   {
     name: "Outside Voice",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1558368730/partners/outside-voice.png",
     url: "https://www.outsidevoice.io/"
+  },
+  {
+    name: "Soqqle",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559748820/partners/Soqqle.jpg",
+    url: "https://soqqle.com/"
   },
   {
     name: "The Geek Wing",

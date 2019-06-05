@@ -46,6 +46,13 @@ const DayThreeWs = [
   }
 ];
 
+const PostWs = [
+  {
+    title: "Kleros: Learn smart contract development on Ethereum in 3 hours",
+    paragraph: `<li>Brings your laptop for this engaging hands-on development session. No prior blockchain knowledge is required.</li> <br/><li><strong>Takeaway:</strong> At the end of the session, participants will be able to understand how the basics of solididty. They will develop a simple arbitrable escrow smart contract. Also, they will develop a smart contract for the use case of their choic</li><a href="https://www.eventbrite.sg/e/kleros-learn-smart-contract-development-on-ethereum-in-3-hours-tickets-62316315778" target="_blank">Register for smart contract development workshop</a><p class='pt-5 pb-0 mb-0 text-right'><em>Kleros</em></p>`
+  }
+];
+
 const Hackathon = [
   {
     title: "Show us what you got and win attractive prizes",
@@ -56,7 +63,7 @@ const Hackathon = [
 const OpenSpace = [
   {
     title: "Technology advancement sharing",
-    paragraph: `<li>Learn. Discover and Do. Find out what has been the latest trend on our open public sharing day. Immerse yourself in an afternoon of gathering of immersive and engaging talks by industry tech veterans.</li><br/><div><u>Topics that we will be covering</u></div><li>· <strong>Game theory and blockchain</strong></li><br/><li><a href="https://www.eventbrite.sg/e/community-sharing-all-about-emerging-technology-tickets-62137339455" target="_blank">Register for our community sharing</a></li>`
+    paragraph: `<li>Learn. Discover and Do. Find out what has been the latest trend on our open public sharing day. Immerse yourself in an afternoon of gathering of immersive and engaging talks by industry tech veterans.</li><br/><div><u>Topics that we will be covering</u></div><li>· <strong>12pm: Developing with TokenScript</strong></li><li>· <strong>1pm: Moving towards human like AI interface</strong></li><li>· <strong>1.25pm: Applying decentralisation to lean startups</strong></li><li>· <strong>1.50pm: Building a superior tech product with 10% the cost</strong></li><li>· <strong>3pm: Game theory and blockchain</strong></li><br/><li><a href="https://www.eventbrite.sg/e/community-sharing-all-about-emerging-technology-tickets-62137339455" target="_blank">Register for our community sharing</a></li>`
   }
 ];
 
@@ -106,6 +113,8 @@ const Overview = props => (
           <Accordion data={DayTwoWs} />
           <h3 className="text-body">8 June 2019</h3>
           <Accordion data={DayThreeWs} />
+          <h3 className="text-body">18 June 2019</h3>
+          <Accordion data={PostWs} />
           <div className="d-flex justify-content-center">
             <a
               href="https://www.eventbrite.sg/o/global-tech-challenge-20143618151"

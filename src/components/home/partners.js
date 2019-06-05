@@ -46,6 +46,14 @@ const Partners = props => (
     <div className="bg-white gutter text-center">
       <h2>Our partners</h2>
       <div className="row mb-5" />
+      <p className="text-body text-center mb-0 pb-0">Supported by</p>
+      <div className="row mb-5 justify-content-center">
+        <Partner
+          name="Our Singapore Fund"
+          img="https://res.cloudinary.com/gtcmain/image/upload/v1559750190/partners/OSF_Colour.png"
+          url="https://www.sg/oursingaporefund"
+        />
+      </div>
       <p className="text-body text-center mb-0 pb-0">
         Our blockchain platform and enterprise partners
       </p>
