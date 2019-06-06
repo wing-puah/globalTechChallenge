@@ -127,6 +127,15 @@ const data = [
       "<p>Alvin is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS's blockchain community of more than 600 individuals across the globe.</p>"
   },
   {
+    name: "Ankur Daharwal",
+    designation: "Blockchain Consultant",
+    organisation: "Zuellig Pharma",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559865007/speakers/Ankur.jpg",
+    description:
+      "<p>Ankur Daharwal started his journey into blockchain with IBM Blockchain Garage in 2016. As a technology enthusiast and expert in both public and enterprise blockchains, he has been part of the decentralized world for around 3 years now. He has devoted his career to devising real-life solutions for asset management and value exchange in a plethora of industry use cases worldwide. Ankur strongly believes in fulfilling social responsibilities and supporting humanitarian causes with the use of his skills in technology.</p>"
+  },
+  {
     name: "Anna Wang",
     designation: "Regional Manager China",
     organisation: "Origin Protocol",

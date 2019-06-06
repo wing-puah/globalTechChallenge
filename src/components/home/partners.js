@@ -53,6 +53,11 @@ const Partners = props => (
           img="https://res.cloudinary.com/gtcmain/image/upload/v1559750190/partners/OSF_Colour.png"
           url="https://www.sg/oursingaporefund"
         />
+        <Partner
+          name="AWS"
+          img="https://res.cloudinary.com/gtcmain/image/upload/v1559865248/partners/AWS_logo_RGB.png"
+          url="https://aws.amazon.com/"
+        />
       </div>
       <p className="text-body text-center mb-0 pb-0">
         Our blockchain platform and enterprise partners
