@@ -51,6 +51,12 @@ const strategicPartners = [
     url: "https://www.meetup.com/en-AU/BlockChain-Dapps-Technology/"
   },
   {
+    name: "Chainstack",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559865699/partners/chainstack.png",
+    url: "https://chainstack.com/"
+  },
+  {
     name: "DADC",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629672/partners/dadc.png",
