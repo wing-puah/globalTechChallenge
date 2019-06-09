@@ -127,6 +127,15 @@ const data = [
       "<p>Alvin is the current Founding President of Institute of Blockchain™ (IBS), a not-for-profit blockchain school focusing on blockchain & cryptocurrency education, certification and research. He is the first WSQ ACTA Master Trainer for Blockchain and has trained more than 1000 participants in blockchain & cryptocurrency at Singapore and Hong Kong. He also oversees IBS's blockchain community of more than 600 individuals across the globe.</p>"
   },
   {
+    name: "Amadeo Brands",
+    designation: "CO-Founder & CTO",
+    organisation: "EOI Digital",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560044646/speakers/amadaeo.jpg",
+    description:
+      "<p>Amadeo Brands is the CO-Founder & CTO at EOI Digital. We are living in a time where every business will become a digital business. Therefore, it’s important to innovate & optimize your workflows and embed the latest technology stacks into your business to stay ahead of the curve. Amadeo has co-founded EOI Digital to help companies to navigate in the complex digital transformation landscape. He believes in a result driven approach which translates into 360° digital services for the optimalization and boosting of every business performance; from sales and marketing to complex digital transformation projects. Amadeo has experience with blockchain development, project management, Mendix Development and is passionate about token designs patterns.</p>"
+  },
+  {
     name: "Ankur Daharwal",
     designation: "Blockchain Consultant",
     organisation: "Zuellig Pharma",

@@ -21,6 +21,12 @@ const blockchainPartners = [
 
 const strategicPartners = [
   {
+    name: "Soho",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560044823/partners/Soho-Logo-With-Icon_Colour-01.jpg",
+    url: "https://sohoapp.com/"
+  },
+  {
     name: "Aetler",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1557076652/partners/aetler-logo.png",
@@ -49,6 +55,12 @@ const strategicPartners = [
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1554629671/partners/blockchain-dapp.jpg",
     url: "https://www.meetup.com/en-AU/BlockChain-Dapps-Technology/"
+  },
+  {
+    name: "Blockdevs Asia",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560044823/partners/blockdevAsia.jpg",
+    url: "https://www.blockdevs.asia/"
   },
   {
     name: "Chainstack",
