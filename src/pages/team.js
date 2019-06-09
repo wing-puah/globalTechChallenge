@@ -35,6 +35,14 @@ const teamData = [
       "<p>Zi Hui is an experienced Day Trader with a demonstrated history of working in the banking industry. Skilled in Transfer Pricing, Microsoft Word, Banking, Public Speaking, and Market Research. Strong finance professional with a Bachelor’s Degree focused in Banking and Financial Support Services from Monash University.</p>"
   },
   {
+    name: "Daniel Shen",
+    designation: "Founder",
+    organisation: "Soqqle",
+    img: "/image/upload/v1559748934/speakers/daniel.jpg",
+    description:
+      "<p>Daniel Shen has more than 10 years of experience in investment banking & Fintech. Well-versed in process re-engineering, innovation, human capital, he dived into Blockchain POC in J.P. Morgan. With product management expertise, he is the founder of Soqqle – a gamified learning platform to bring serious games into the classroom. He is working with local mainstream schools in Singapore to gamify curriculum and join a wider eco-system on the Blockchain</p>"
+  },
+  {
     name: "Alvin Chua",
     designation: "",
     img: "/image/upload/v1554629714/speakers/Alvin.jpg",
