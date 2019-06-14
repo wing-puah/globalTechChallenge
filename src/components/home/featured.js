@@ -82,6 +82,15 @@ const data = [
       "<p>Clément is an engineer graduated from UTC (France) and he holds a Master of Computer Science from Georgia Tech (USA), Clément is the CTO of KLEROSand as such, he is at the origin of the developed protocol infrastructure. Clément is one of the French specialists in smart contract security.</p><p>He works on the theoretical aspects (incentive mechanisms, attacks and defense mechanisms) and experimental (traditional metrics of machine learning applied to the human sciences) of crypto-economics (computer science, cryptography, game theory) at KLEROS.</p>"
   },
   {
+    name: "Jagdish Pandya",
+    designation: "Founder & Chairman",
+    organisation: "Blockon Capital",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560535692/speakers/Jp.jpg",
+    description:
+      "<p>Chairman of Singapore based BlockOn Group. Founded technology and event based companies in South East Asia, each having multi-million dollar as starting revenue growing at an exponential rate.</p>"
+  },
+  {
     name: "Lawrence Lim",
     designation: "Head of Business Development",
     organisation: "IOST",
@@ -163,6 +172,15 @@ const data = [
       "<p>Clare is the Co-Founder and COO of StartupToken Blockchain Accelerator with 15+ years cumulative international experience in Consulting for Innovative Strategy, Community Building and Operations. Leader of Women in Blockchain International Networks, Women4Blockchain Hackathon Business mentor, keynote speaker for InCredibles Accelerator in Warsaw, Poland and guest lecturer on Blockchain Technology at ESSEC Global MBA in Singapore. </p>"
   },
   {
+    name: "Conrad Lin",
+    designation: "Co-Founder & COO",
+    organisation: "Startup Token",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1559749022/speakers/clare.jpg",
+    description:
+      "<p>Conrad Lin is a young and dynamic entrepreneur, public speaker, and influencer with a background in Neuroscience and Psychology from the University of Toronto. He is a proven expert in business analysis, social media growth, global marketing strategy, project management, and product development with a speciality in DLT (distributed ledger technologies).</p>"
+  },
+  {
     name: "Daniel Shen",
     designation: "Founder",
     organisation: "Soqqle",
@@ -226,7 +244,6 @@ const data = [
     description:
       "<p>Previously at Visa and ConsenSys, Leonard is a software engineer with several years of experience in blockchain technology and research. He has built a secure mobile cryptowallet for CoinHako as well as full-stack Ethereum dapps, and has been a technical advisor for multiple ICOs. A member of Ethereum Foundation working on ENS, he has been invited to present at blockchain events across the world in the US (ETHDenver), Singapore, UAE (ICANN60), as well as Ghana (Ghana Blockchain Conference). He is currently the co-founder of Torus, a decentralised credibility solution for the internet.</p>"
   },
-
   {
     name: "Lisa Tan",
     designation: "Token Economics Research",
@@ -235,6 +252,15 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1558752716/speakers/lisa.jpg",
     description:
       "<p> Lisa is a deconstructor of economics, cryptoassets and cryptosystems.  She comes from an economics background and sees huge potential to bridge the gap between traditional economics and the blockchain world.</p><p>Lisa now pours her passion for economics into designing, teaching and showcasing the true capabilities of solid underlying economic and incentivisation models to build scalable and sustainable token economy and networks</p>"
+  },
+  {
+    name: "Dr. Marian Podmajersky",
+    designation: "Blockchain Engineer",
+    organisation: "Decent",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560535695/speakers/Marian.jpg",
+    description:
+      "<p>During Masters and PhD program, he conducted research of self-tuning solver and new computational methods for model-based dynamic optimisation of real-time processes. During company time, he worked as field engineer and project manager for process control, telemetry, supervisory control and IoT. In parallel, he built mining setups for proof-of-work. Lately, he joined blockchain industry, first, as an advisor, secondly founding research and development hub with focus on ready-to-use lab exercises, templates for use cases, and benchmarks of various deployment.</p>"
   },
   {
     name: "Nirmal AK",
@@ -253,15 +279,6 @@ const data = [
       "https://res.cloudinary.com/gtcmain/image/upload/v1559749063/speakers/Rong-yao.jpg",
     description:
       "<p>Rong Yao is Managing Partner of Arete Advisory, A firm focused on excellence and scaling your business. He has a decade of experience in helping firms.</p>"
-  },
-  {
-    name: "Ryan Soh",
-    designation: "CEO & Founder",
-    organisation: "Edufied",
-    img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1558752939/speakers/Ryan.jpg",
-    description:
-      "<p>Ryan is a Business Strategist in the Education Management industry. Being an experienced entrepreneur for more than 16 years, he spent most of his journey focusing on Education related ventures. With his interest in the fast moving technology sector, Ryan rolled out a digital transformation framework for MoneyTree, a Financial Literacy Education Institution for Kids Youths aged 6 to 17.<p>Ryan is the founder of Edufied, a blockchain based Credential Storage Verification System. Within a span of 10 months, he has brought Edufied from an idea to main net launch with a ready pool of 40 000 committed users.</p>"
   },
   {
     name: "Soh Wan Wei",

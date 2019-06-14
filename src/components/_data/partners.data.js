@@ -63,6 +63,12 @@ const strategicPartners = [
     url: "https://www.blockdevs.asia/"
   },
   {
+    name: "BlockOn Group",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560539080/partners/block-on.png",
+    url: "http://www.blockon.biz/"
+  },
+  {
     name: "Chainstack",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1559865699/partners/chainstack.png",
@@ -75,6 +81,12 @@ const strategicPartners = [
     url: "https://dappsdev.org/"
   },
   {
+    name: "Decent",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560538913/partners/decent.png",
+    url: "https://decent.ch/"
+  },
+  {
     name: "Dtal Technologies",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1557599281/partners/dtal.jpg",
@@ -83,7 +95,7 @@ const strategicPartners = [
   {
     name: "EAT launchpad",
     img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1558460221/partners/edufied.png",
+      "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
     url: "https://www.eatlaunchpad.com/"
   },
   {
@@ -93,16 +105,16 @@ const strategicPartners = [
     url: "https://www.economicsdesign.com/"
   },
   {
-    name: "Edufied",
-    img:
-      "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/eat-launchpad.jpg",
-    url: "https://edufied.network/"
-  },
-  {
     name: "Endeavour Ventures",
     img:
       "https://res.cloudinary.com/gtcmain/image/upload/v1557076386/partners/Endeavour_logo-01.png",
     url: "https://www.endeavour.ventures/"
+  },
+  {
+    name: "Fintrux",
+    img:
+      "https://res.cloudinary.com/gtcmain/image/upload/v1560538875/partners/FintruX-Network-300H.png",
+    url: "https://www.fintrux.com/"
   },
   {
     name: "Ikiguide",
